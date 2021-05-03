@@ -43,6 +43,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode_62_Unique Paths", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode_70_Climbing Stairs", "LeetCode_70_Climbing Stairs\LeetCode_70_Climbing Stairs.csproj", "{AFEC69C6-95AC-4646-8A08-A79A0DC8594F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode_73_Set Matrix Zeroes", "LeetCode_73_Set Matrix Zeroes\LeetCode_73_Set Matrix Zeroes.csproj", "{9C8F36BB-C4A1-4CBA-BD69-AF060D0CFDFD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -129,6 +131,10 @@ Global
 		{AFEC69C6-95AC-4646-8A08-A79A0DC8594F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AFEC69C6-95AC-4646-8A08-A79A0DC8594F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AFEC69C6-95AC-4646-8A08-A79A0DC8594F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C8F36BB-C4A1-4CBA-BD69-AF060D0CFDFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C8F36BB-C4A1-4CBA-BD69-AF060D0CFDFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C8F36BB-C4A1-4CBA-BD69-AF060D0CFDFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C8F36BB-C4A1-4CBA-BD69-AF060D0CFDFD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
