@@ -35,9 +35,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCode_54_Spiral Matrix",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCode_55_Jump Game", "LeetCode_55_Jump Game\LeetCode_55_Jump Game.csproj", "{D4DE20E8-3DB0-47F0-893E-9D6A8CDDFA1B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode_56_Merge Intervals", "LeetCode_56_Merge Intervals\LeetCode_56_Merge Intervals.csproj", "{6B97C0A7-9601-434B-9B8F-AE9807A50EC7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCode_56_Merge Intervals", "LeetCode_56_Merge Intervals\LeetCode_56_Merge Intervals.csproj", "{6B97C0A7-9601-434B-9B8F-AE9807A50EC7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode_57_Insert Interval", "LeetCode_57_Insert Interval\LeetCode_57_Insert Interval.csproj", "{79605588-EF2C-40CD-B550-407242D9EC67}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCode_57_Insert Interval", "LeetCode_57_Insert Interval\LeetCode_57_Insert Interval.csproj", "{79605588-EF2C-40CD-B550-407242D9EC67}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode_62_Unique Paths", "LeetCode_62_Unique Paths\LeetCode_62_Unique Paths.csproj", "{2EFBE3C1-0367-42A0-A35A-DE28F0BF88DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode_70_Climbing Stairs", "LeetCode_70_Climbing Stairs\LeetCode_70_Climbing Stairs.csproj", "{AFEC69C6-95AC-4646-8A08-A79A0DC8594F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -117,6 +121,14 @@ Global
 		{79605588-EF2C-40CD-B550-407242D9EC67}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{79605588-EF2C-40CD-B550-407242D9EC67}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{79605588-EF2C-40CD-B550-407242D9EC67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EFBE3C1-0367-42A0-A35A-DE28F0BF88DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EFBE3C1-0367-42A0-A35A-DE28F0BF88DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EFBE3C1-0367-42A0-A35A-DE28F0BF88DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EFBE3C1-0367-42A0-A35A-DE28F0BF88DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFEC69C6-95AC-4646-8A08-A79A0DC8594F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFEC69C6-95AC-4646-8A08-A79A0DC8594F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFEC69C6-95AC-4646-8A08-A79A0DC8594F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFEC69C6-95AC-4646-8A08-A79A0DC8594F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
