@@ -39,11 +39,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCode_56_Merge Intervals
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCode_57_Insert Interval", "LeetCode_57_Insert Interval\LeetCode_57_Insert Interval.csproj", "{79605588-EF2C-40CD-B550-407242D9EC67}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode_62_Unique Paths", "LeetCode_62_Unique Paths\LeetCode_62_Unique Paths.csproj", "{2EFBE3C1-0367-42A0-A35A-DE28F0BF88DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCode_62_Unique Paths", "LeetCode_62_Unique Paths\LeetCode_62_Unique Paths.csproj", "{2EFBE3C1-0367-42A0-A35A-DE28F0BF88DD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode_70_Climbing Stairs", "LeetCode_70_Climbing Stairs\LeetCode_70_Climbing Stairs.csproj", "{AFEC69C6-95AC-4646-8A08-A79A0DC8594F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCode_70_Climbing Stairs", "LeetCode_70_Climbing Stairs\LeetCode_70_Climbing Stairs.csproj", "{AFEC69C6-95AC-4646-8A08-A79A0DC8594F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode_73_Set Matrix Zeroes", "LeetCode_73_Set Matrix Zeroes\LeetCode_73_Set Matrix Zeroes.csproj", "{9C8F36BB-C4A1-4CBA-BD69-AF060D0CFDFD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCode_73_Set Matrix Zeroes", "LeetCode_73_Set Matrix Zeroes\LeetCode_73_Set Matrix Zeroes.csproj", "{9C8F36BB-C4A1-4CBA-BD69-AF060D0CFDFD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode_76_Minimum Window Substring", "LeetCode_76_Minimum Window Substring\LeetCode_76_Minimum Window Substring.csproj", "{37F11F8B-9BED-42FA-AC8E-AB05940B8C2A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -135,6 +137,10 @@ Global
 		{9C8F36BB-C4A1-4CBA-BD69-AF060D0CFDFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9C8F36BB-C4A1-4CBA-BD69-AF060D0CFDFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9C8F36BB-C4A1-4CBA-BD69-AF060D0CFDFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37F11F8B-9BED-42FA-AC8E-AB05940B8C2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37F11F8B-9BED-42FA-AC8E-AB05940B8C2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37F11F8B-9BED-42FA-AC8E-AB05940B8C2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37F11F8B-9BED-42FA-AC8E-AB05940B8C2A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
