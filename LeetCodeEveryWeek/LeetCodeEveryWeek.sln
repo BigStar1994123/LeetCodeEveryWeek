@@ -45,11 +45,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCode_70_Climbing Stairs
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCode_73_Set Matrix Zeroes", "LeetCode_73_Set Matrix Zeroes\LeetCode_73_Set Matrix Zeroes.csproj", "{9C8F36BB-C4A1-4CBA-BD69-AF060D0CFDFD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode_76_Minimum Window Substring", "LeetCode_76_Minimum Window Substring\LeetCode_76_Minimum Window Substring.csproj", "{37F11F8B-9BED-42FA-AC8E-AB05940B8C2A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCode_76_Minimum Window Substring", "LeetCode_76_Minimum Window Substring\LeetCode_76_Minimum Window Substring.csproj", "{37F11F8B-9BED-42FA-AC8E-AB05940B8C2A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode_79_Word Search", "LeetCode_79_Word Search\LeetCode_79_Word Search.csproj", "{7A8D2C9F-6363-421E-8199-13453073CB65}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCode_79_Word Search", "LeetCode_79_Word Search\LeetCode_79_Word Search.csproj", "{7A8D2C9F-6363-421E-8199-13453073CB65}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode_91_Decode Ways", "LeetCode_91_Decode Ways\LeetCode_91_Decode Ways.csproj", "{0DD8B557-F436-487E-801E-0DB2B7364F5E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCode_91_Decode Ways", "LeetCode_91_Decode Ways\LeetCode_91_Decode Ways.csproj", "{0DD8B557-F436-487E-801E-0DB2B7364F5E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode_98_Validate Binary Search Tree", "LeetCode_98_Validate Binary Search Tree\LeetCode_98_Validate Binary Search Tree.csproj", "{D736EADD-714B-4AFA-A755-5BD9EC6E40D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode_100_Same Tree", "LeetCode_100_Same Tree\LeetCode_100_Same Tree.csproj", "{01C3091A-4C62-470F-AF3F-BF01DE4FFBDF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode_102_Binary Tree Level Order Traversal", "LeetCode_102_Binary Tree Level Order Traversal\LeetCode_102_Binary Tree Level Order Traversal.csproj", "{2E02E482-D493-4B93-B692-0D71F963843F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -153,6 +159,18 @@ Global
 		{0DD8B557-F436-487E-801E-0DB2B7364F5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0DD8B557-F436-487E-801E-0DB2B7364F5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0DD8B557-F436-487E-801E-0DB2B7364F5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D736EADD-714B-4AFA-A755-5BD9EC6E40D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D736EADD-714B-4AFA-A755-5BD9EC6E40D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D736EADD-714B-4AFA-A755-5BD9EC6E40D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D736EADD-714B-4AFA-A755-5BD9EC6E40D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01C3091A-4C62-470F-AF3F-BF01DE4FFBDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01C3091A-4C62-470F-AF3F-BF01DE4FFBDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01C3091A-4C62-470F-AF3F-BF01DE4FFBDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01C3091A-4C62-470F-AF3F-BF01DE4FFBDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E02E482-D493-4B93-B692-0D71F963843F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E02E482-D493-4B93-B692-0D71F963843F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E02E482-D493-4B93-B692-0D71F963843F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E02E482-D493-4B93-B692-0D71F963843F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
