@@ -51,11 +51,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCode_79_Word Search", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCode_91_Decode Ways", "LeetCode_91_Decode Ways\LeetCode_91_Decode Ways.csproj", "{0DD8B557-F436-487E-801E-0DB2B7364F5E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode_98_Validate Binary Search Tree", "LeetCode_98_Validate Binary Search Tree\LeetCode_98_Validate Binary Search Tree.csproj", "{D736EADD-714B-4AFA-A755-5BD9EC6E40D3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCode_98_Validate Binary Search Tree", "LeetCode_98_Validate Binary Search Tree\LeetCode_98_Validate Binary Search Tree.csproj", "{D736EADD-714B-4AFA-A755-5BD9EC6E40D3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode_100_Same Tree", "LeetCode_100_Same Tree\LeetCode_100_Same Tree.csproj", "{01C3091A-4C62-470F-AF3F-BF01DE4FFBDF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCode_100_Same Tree", "LeetCode_100_Same Tree\LeetCode_100_Same Tree.csproj", "{01C3091A-4C62-470F-AF3F-BF01DE4FFBDF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode_102_Binary Tree Level Order Traversal", "LeetCode_102_Binary Tree Level Order Traversal\LeetCode_102_Binary Tree Level Order Traversal.csproj", "{2E02E482-D493-4B93-B692-0D71F963843F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCode_102_Binary Tree Level Order Traversal", "LeetCode_102_Binary Tree Level Order Traversal\LeetCode_102_Binary Tree Level Order Traversal.csproj", "{2E02E482-D493-4B93-B692-0D71F963843F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode_104_Maximum Depth of Binary Tree", "LeetCode_104_Maximum Depth of Binary Tree\LeetCode_104_Maximum Depth of Binary Tree.csproj", "{D31BF311-04E1-478A-8950-E1FEFB17E8DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode_105_Construct B Tree Preorder and Inorder", "LeetCode_105_Construct B Tree Preorder and Inorder\LeetCode_105_Construct B Tree Preorder and Inorder.csproj", "{4E1E66D5-CA99-47C7-8908-07D2BA5281CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode_121_Best Time to Buy and Sell Stock", "LeetCode_121_Best Time to Buy and Sell Stock\LeetCode_121_Best Time to Buy and Sell Stock.csproj", "{3D22A000-C4F6-4B2A-B5D9-754ADCBD8A8A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -171,6 +177,18 @@ Global
 		{2E02E482-D493-4B93-B692-0D71F963843F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2E02E482-D493-4B93-B692-0D71F963843F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2E02E482-D493-4B93-B692-0D71F963843F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D31BF311-04E1-478A-8950-E1FEFB17E8DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D31BF311-04E1-478A-8950-E1FEFB17E8DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D31BF311-04E1-478A-8950-E1FEFB17E8DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D31BF311-04E1-478A-8950-E1FEFB17E8DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E1E66D5-CA99-47C7-8908-07D2BA5281CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E1E66D5-CA99-47C7-8908-07D2BA5281CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E1E66D5-CA99-47C7-8908-07D2BA5281CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E1E66D5-CA99-47C7-8908-07D2BA5281CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D22A000-C4F6-4B2A-B5D9-754ADCBD8A8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D22A000-C4F6-4B2A-B5D9-754ADCBD8A8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D22A000-C4F6-4B2A-B5D9-754ADCBD8A8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D22A000-C4F6-4B2A-B5D9-754ADCBD8A8A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
