@@ -63,11 +63,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCode_105_Construct B Tr
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCode_121_Best Time to Buy and Sell Stock", "LeetCode_121_Best Time to Buy and Sell Stock\LeetCode_121_Best Time to Buy and Sell Stock.csproj", "{3D22A000-C4F6-4B2A-B5D9-754ADCBD8A8A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode_124_Binary Tree Maximum Path Sum", "LeetCode_124_Binary Tree Maximum Path Sum\LeetCode_124_Binary Tree Maximum Path Sum.csproj", "{B7DC5298-EEE5-4FA5-B9B9-DBB476301B04}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCode_124_Binary Tree Maximum Path Sum", "LeetCode_124_Binary Tree Maximum Path Sum\LeetCode_124_Binary Tree Maximum Path Sum.csproj", "{B7DC5298-EEE5-4FA5-B9B9-DBB476301B04}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode_125_Valid Palindrome", "LeetCode_125_Valid Palindrome\LeetCode_125_Valid Palindrome.csproj", "{546FA686-E8B0-4318-B209-9910363C043C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCode_125_Valid Palindrome", "LeetCode_125_Valid Palindrome\LeetCode_125_Valid Palindrome.csproj", "{546FA686-E8B0-4318-B209-9910363C043C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode_128_Longest Consecutive Sequence", "LeetCode_128_Longest Consecutive Sequence\LeetCode_128_Longest Consecutive Sequence.csproj", "{A5B68FE6-1B85-48C2-8653-F9E262C50350}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCode_128_Longest Consecutive Sequence", "LeetCode_128_Longest Consecutive Sequence\LeetCode_128_Longest Consecutive Sequence.csproj", "{A5B68FE6-1B85-48C2-8653-F9E262C50350}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode_133_Clone Graph", "LeetCode_133_Clone Graph\LeetCode_133_Clone Graph.csproj", "{60AA8692-274D-4201-9174-A60B4AA78252}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode_139_Word Break", "LeetCode_139_Word Break\LeetCode_139_Word Break.csproj", "{F4D38181-6E12-43BC-AF2C-939566C7AE9C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode_141_Linked List Cycle", "LeetCode_141_Linked List Cycle\LeetCode_141_Linked List Cycle.csproj", "{CE08AD9C-C52E-480F-B6B3-0BFB6A68713B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -207,6 +213,18 @@ Global
 		{A5B68FE6-1B85-48C2-8653-F9E262C50350}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A5B68FE6-1B85-48C2-8653-F9E262C50350}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A5B68FE6-1B85-48C2-8653-F9E262C50350}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60AA8692-274D-4201-9174-A60B4AA78252}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60AA8692-274D-4201-9174-A60B4AA78252}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60AA8692-274D-4201-9174-A60B4AA78252}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60AA8692-274D-4201-9174-A60B4AA78252}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4D38181-6E12-43BC-AF2C-939566C7AE9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4D38181-6E12-43BC-AF2C-939566C7AE9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4D38181-6E12-43BC-AF2C-939566C7AE9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4D38181-6E12-43BC-AF2C-939566C7AE9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE08AD9C-C52E-480F-B6B3-0BFB6A68713B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE08AD9C-C52E-480F-B6B3-0BFB6A68713B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE08AD9C-C52E-480F-B6B3-0BFB6A68713B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE08AD9C-C52E-480F-B6B3-0BFB6A68713B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
