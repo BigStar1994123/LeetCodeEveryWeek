@@ -69,11 +69,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCode_125_Valid Palindro
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCode_128_Longest Consecutive Sequence", "LeetCode_128_Longest Consecutive Sequence\LeetCode_128_Longest Consecutive Sequence.csproj", "{A5B68FE6-1B85-48C2-8653-F9E262C50350}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode_133_Clone Graph", "LeetCode_133_Clone Graph\LeetCode_133_Clone Graph.csproj", "{60AA8692-274D-4201-9174-A60B4AA78252}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCode_133_Clone Graph", "LeetCode_133_Clone Graph\LeetCode_133_Clone Graph.csproj", "{60AA8692-274D-4201-9174-A60B4AA78252}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode_139_Word Break", "LeetCode_139_Word Break\LeetCode_139_Word Break.csproj", "{F4D38181-6E12-43BC-AF2C-939566C7AE9C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCode_139_Word Break", "LeetCode_139_Word Break\LeetCode_139_Word Break.csproj", "{F4D38181-6E12-43BC-AF2C-939566C7AE9C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode_141_Linked List Cycle", "LeetCode_141_Linked List Cycle\LeetCode_141_Linked List Cycle.csproj", "{CE08AD9C-C52E-480F-B6B3-0BFB6A68713B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCode_141_Linked List Cycle", "LeetCode_141_Linked List Cycle\LeetCode_141_Linked List Cycle.csproj", "{CE08AD9C-C52E-480F-B6B3-0BFB6A68713B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCode_143_Reorder List", "LeetCode_143_Reorder List\LeetCode_143_Reorder List.csproj", "{F832DE16-B6E9-496A-B370-47597B9E6460}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCode_152_Maximum Product Subarray", "LeetCode_152_Maximum Product Subarray\LeetCode_152_Maximum Product Subarray.csproj", "{BDC9336E-F14A-4985-A9D4-796FE70BAE91}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode_153_Find Minimum in Rotated Sorted Array", "LeetCode_153_Find Minimum in Rotated Sorted Array\LeetCode_153_Find Minimum in Rotated Sorted Array.csproj", "{55AFA904-60E4-4361-B3D2-6BE31B6F1FFE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode_190_Reverse Bits", "LeetCode_190_Reverse Bits\LeetCode_190_Reverse Bits.csproj", "{6B8E82F9-F46A-47B2-96A6-B96188F271F7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -225,6 +233,22 @@ Global
 		{CE08AD9C-C52E-480F-B6B3-0BFB6A68713B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CE08AD9C-C52E-480F-B6B3-0BFB6A68713B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CE08AD9C-C52E-480F-B6B3-0BFB6A68713B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F832DE16-B6E9-496A-B370-47597B9E6460}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F832DE16-B6E9-496A-B370-47597B9E6460}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F832DE16-B6E9-496A-B370-47597B9E6460}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F832DE16-B6E9-496A-B370-47597B9E6460}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDC9336E-F14A-4985-A9D4-796FE70BAE91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDC9336E-F14A-4985-A9D4-796FE70BAE91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDC9336E-F14A-4985-A9D4-796FE70BAE91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDC9336E-F14A-4985-A9D4-796FE70BAE91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55AFA904-60E4-4361-B3D2-6BE31B6F1FFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55AFA904-60E4-4361-B3D2-6BE31B6F1FFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55AFA904-60E4-4361-B3D2-6BE31B6F1FFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55AFA904-60E4-4361-B3D2-6BE31B6F1FFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B8E82F9-F46A-47B2-96A6-B96188F271F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B8E82F9-F46A-47B2-96A6-B96188F271F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B8E82F9-F46A-47B2-96A6-B96188F271F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B8E82F9-F46A-47B2-96A6-B96188F271F7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
