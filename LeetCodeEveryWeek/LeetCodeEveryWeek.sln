@@ -87,7 +87,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCode_191_Number of 1 Bi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCode_198_House Robber", "LeetCode_198_House Robber\LeetCode_198_House Robber.csproj", "{67169293-57A5-43F3-8522-78DEF9017977}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode_200_Number of Islands", "LeetCode_200_Number of Islands\LeetCode_200_Number of Islands.csproj", "{CFA8E428-DBF6-4BDB-9E9A-08B0D65C1529}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCode_200_Number of Islands", "LeetCode_200_Number of Islands\LeetCode_200_Number of Islands.csproj", "{CFA8E428-DBF6-4BDB-9E9A-08B0D65C1529}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode_206_Reverse Linked List", "LeetCode_206_Reverse Linked List\LeetCode_206_Reverse Linked List.csproj", "{9B76DDF4-CD3E-45B6-95E2-FDF5783EB191}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode_207_Course Schedule", "LeetCode_207_Course Schedule\LeetCode_207_Course Schedule.csproj", "{57BFA2AF-CBBC-4744-9260-6189A8A39DDC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -267,6 +271,14 @@ Global
 		{CFA8E428-DBF6-4BDB-9E9A-08B0D65C1529}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CFA8E428-DBF6-4BDB-9E9A-08B0D65C1529}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CFA8E428-DBF6-4BDB-9E9A-08B0D65C1529}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B76DDF4-CD3E-45B6-95E2-FDF5783EB191}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B76DDF4-CD3E-45B6-95E2-FDF5783EB191}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B76DDF4-CD3E-45B6-95E2-FDF5783EB191}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B76DDF4-CD3E-45B6-95E2-FDF5783EB191}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57BFA2AF-CBBC-4744-9260-6189A8A39DDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57BFA2AF-CBBC-4744-9260-6189A8A39DDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57BFA2AF-CBBC-4744-9260-6189A8A39DDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57BFA2AF-CBBC-4744-9260-6189A8A39DDC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
