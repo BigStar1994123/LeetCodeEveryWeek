@@ -83,9 +83,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCode_153_Find Minimum i
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCode_190_Reverse Bits", "LeetCode_190_Reverse Bits\LeetCode_190_Reverse Bits.csproj", "{6B8E82F9-F46A-47B2-96A6-B96188F271F7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode_191_Number of 1 Bits", "LeetCode_191_Number of 1 Bits\LeetCode_191_Number of 1 Bits.csproj", "{42FBF552-27C8-4430-9DCC-BCED6783D114}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCode_191_Number of 1 Bits", "LeetCode_191_Number of 1 Bits\LeetCode_191_Number of 1 Bits.csproj", "{42FBF552-27C8-4430-9DCC-BCED6783D114}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode_198_House Robber", "LeetCode_198_House Robber\LeetCode_198_House Robber.csproj", "{67169293-57A5-43F3-8522-78DEF9017977}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCode_198_House Robber", "LeetCode_198_House Robber\LeetCode_198_House Robber.csproj", "{67169293-57A5-43F3-8522-78DEF9017977}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode_200_Number of Islands", "LeetCode_200_Number of Islands\LeetCode_200_Number of Islands.csproj", "{CFA8E428-DBF6-4BDB-9E9A-08B0D65C1529}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -261,6 +263,10 @@ Global
 		{67169293-57A5-43F3-8522-78DEF9017977}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{67169293-57A5-43F3-8522-78DEF9017977}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{67169293-57A5-43F3-8522-78DEF9017977}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFA8E428-DBF6-4BDB-9E9A-08B0D65C1529}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFA8E428-DBF6-4BDB-9E9A-08B0D65C1529}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFA8E428-DBF6-4BDB-9E9A-08B0D65C1529}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFA8E428-DBF6-4BDB-9E9A-08B0D65C1529}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
