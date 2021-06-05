@@ -93,11 +93,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCode_206_Reverse Linked
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCode_207_Course Schedule", "LeetCode_207_Course Schedule\LeetCode_207_Course Schedule.csproj", "{57BFA2AF-CBBC-4744-9260-6189A8A39DDC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode_208_Implement Trie (Prefix Tree)", "LeetCode_208_Implement Trie (Prefix Tree)\LeetCode_208_Implement Trie (Prefix Tree).csproj", "{C3ACFC0C-26FD-4B18-9BC9-DA75B57E80CD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCode_208_Implement Trie (Prefix Tree)", "LeetCode_208_Implement Trie (Prefix Tree)\LeetCode_208_Implement Trie (Prefix Tree).csproj", "{C3ACFC0C-26FD-4B18-9BC9-DA75B57E80CD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode_211_Design Add and Search Words DataStructure", "LeetCode_211_Design Add and Search Words DataStructure\LeetCode_211_Design Add and Search Words DataStructure.csproj", "{E9C0F61A-F886-457B-9A45-FE590C8D4A34}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCode_211_Design Add and Search Words DataStructure", "LeetCode_211_Design Add and Search Words DataStructure\LeetCode_211_Design Add and Search Words DataStructure.csproj", "{E9C0F61A-F886-457B-9A45-FE590C8D4A34}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode_212_Word Search II", "LeetCode_212_Word Search II\LeetCode_212_Word Search II.csproj", "{52199773-F640-431B-984E-41551CF3B255}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCode_212_Word Search II", "LeetCode_212_Word Search II\LeetCode_212_Word Search II.csproj", "{52199773-F640-431B-984E-41551CF3B255}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode_714_BestTimeBuySellStock with Transaction Fee", "LeetCode_714_BestTimeBuySellStock with Transaction Fee\LeetCode_714_BestTimeBuySellStock with Transaction Fee.csproj", "{E1A8CD3E-FCDA-410D-9461-A1B222E90813}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -297,6 +299,10 @@ Global
 		{52199773-F640-431B-984E-41551CF3B255}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{52199773-F640-431B-984E-41551CF3B255}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{52199773-F640-431B-984E-41551CF3B255}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1A8CD3E-FCDA-410D-9461-A1B222E90813}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1A8CD3E-FCDA-410D-9461-A1B222E90813}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1A8CD3E-FCDA-410D-9461-A1B222E90813}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1A8CD3E-FCDA-410D-9461-A1B222E90813}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
