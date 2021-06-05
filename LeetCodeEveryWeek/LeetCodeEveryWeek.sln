@@ -103,6 +103,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCode_714_BestTimeBuySel
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode_213_House Robber II", "LeetCode_213_House Robber II\LeetCode_213_House Robber II.csproj", "{4B1AB7BF-FD82-403E-83A5-844A3330BFEE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode_217_Contains Duplicate", "LeetCode_217_Contains Duplicate\LeetCode_217_Contains Duplicate.csproj", "{01C85DDA-E7D7-48C6-A25A-A81D368B9D8B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode_226_Invert Binary Tree", "LeetCode_226_Invert Binary Tree\LeetCode_226_Invert Binary Tree.csproj", "{8B4F9790-23ED-465D-8332-A55361322ADF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -309,6 +313,14 @@ Global
 		{4B1AB7BF-FD82-403E-83A5-844A3330BFEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4B1AB7BF-FD82-403E-83A5-844A3330BFEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4B1AB7BF-FD82-403E-83A5-844A3330BFEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01C85DDA-E7D7-48C6-A25A-A81D368B9D8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01C85DDA-E7D7-48C6-A25A-A81D368B9D8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01C85DDA-E7D7-48C6-A25A-A81D368B9D8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01C85DDA-E7D7-48C6-A25A-A81D368B9D8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B4F9790-23ED-465D-8332-A55361322ADF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B4F9790-23ED-465D-8332-A55361322ADF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B4F9790-23ED-465D-8332-A55361322ADF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B4F9790-23ED-465D-8332-A55361322ADF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
