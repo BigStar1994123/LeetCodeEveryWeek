@@ -107,6 +107,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode_217_Contains Dupli
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode_226_Invert Binary Tree", "LeetCode_226_Invert Binary Tree\LeetCode_226_Invert Binary Tree.csproj", "{8B4F9790-23ED-465D-8332-A55361322ADF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode_230_Kth Smallest Element in a BST", "LeetCode_230_Kth Smallest Element in a BST\LeetCode_230_Kth Smallest Element in a BST.csproj", "{2C0B303E-169B-4298-AFE3-546A24652707}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode_235_Lowest_Common_Ancestor_Binary Search Tree", "LeetCode_235_Lowest_Common_Ancestor_Binary Search Tree\LeetCode_235_Lowest_Common_Ancestor_Binary Search Tree.csproj", "{74AD2ADE-8077-4BC7-AF91-89C4A8A173C3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -321,6 +325,14 @@ Global
 		{8B4F9790-23ED-465D-8332-A55361322ADF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8B4F9790-23ED-465D-8332-A55361322ADF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8B4F9790-23ED-465D-8332-A55361322ADF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C0B303E-169B-4298-AFE3-546A24652707}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C0B303E-169B-4298-AFE3-546A24652707}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C0B303E-169B-4298-AFE3-546A24652707}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C0B303E-169B-4298-AFE3-546A24652707}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74AD2ADE-8077-4BC7-AF91-89C4A8A173C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74AD2ADE-8077-4BC7-AF91-89C4A8A173C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74AD2ADE-8077-4BC7-AF91-89C4A8A173C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74AD2ADE-8077-4BC7-AF91-89C4A8A173C3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
