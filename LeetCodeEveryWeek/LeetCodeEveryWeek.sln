@@ -111,6 +111,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode_230_Kth Smallest E
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode_235_Lowest_Common_Ancestor_Binary Search Tree", "LeetCode_235_Lowest_Common_Ancestor_Binary Search Tree\LeetCode_235_Lowest_Common_Ancestor_Binary Search Tree.csproj", "{74AD2ADE-8077-4BC7-AF91-89C4A8A173C3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode_238_Product of Array Except Self", "LeetCode_238_Product of Array Except Self\LeetCode_238_Product of Array Except Self.csproj", "{02B2517E-391A-4639-A05F-3B0B72C97BE2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -333,6 +335,10 @@ Global
 		{74AD2ADE-8077-4BC7-AF91-89C4A8A173C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{74AD2ADE-8077-4BC7-AF91-89C4A8A173C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{74AD2ADE-8077-4BC7-AF91-89C4A8A173C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02B2517E-391A-4639-A05F-3B0B72C97BE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02B2517E-391A-4639-A05F-3B0B72C97BE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02B2517E-391A-4639-A05F-3B0B72C97BE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02B2517E-391A-4639-A05F-3B0B72C97BE2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
