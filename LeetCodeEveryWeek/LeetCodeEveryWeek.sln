@@ -123,6 +123,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCode_977_Squares of a S
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode_209_Minimum Size Subarray Sum", "LeetCode_209_Minimum Size Subarray Sum\LeetCode_209_Minimum Size Subarray Sum.csproj", "{EACBAC8E-0314-4C29-9889-F65CD131B3B8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode_59_Spiral Matrix II", "LeetCode_59_Spiral Matrix II\LeetCode_59_Spiral Matrix II.csproj", "{B09EAF28-6131-407B-B0D8-2A245A88B6D1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -369,6 +371,10 @@ Global
 		{EACBAC8E-0314-4C29-9889-F65CD131B3B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EACBAC8E-0314-4C29-9889-F65CD131B3B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EACBAC8E-0314-4C29-9889-F65CD131B3B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B09EAF28-6131-407B-B0D8-2A245A88B6D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B09EAF28-6131-407B-B0D8-2A245A88B6D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B09EAF28-6131-407B-B0D8-2A245A88B6D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B09EAF28-6131-407B-B0D8-2A245A88B6D1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
