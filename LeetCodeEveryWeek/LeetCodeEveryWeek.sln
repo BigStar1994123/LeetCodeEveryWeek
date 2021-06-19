@@ -121,9 +121,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCode_35_Search Insert P
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCode_977_Squares of a Sorted Array", "LeetCode_977_Squares of a Sorted Array\LeetCode_977_Squares of a Sorted Array.csproj", "{F2CECADD-9BC8-40BB-AB61-2B0632E98C78}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode_209_Minimum Size Subarray Sum", "LeetCode_209_Minimum Size Subarray Sum\LeetCode_209_Minimum Size Subarray Sum.csproj", "{EACBAC8E-0314-4C29-9889-F65CD131B3B8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCode_209_Minimum Size Subarray Sum", "LeetCode_209_Minimum Size Subarray Sum\LeetCode_209_Minimum Size Subarray Sum.csproj", "{EACBAC8E-0314-4C29-9889-F65CD131B3B8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode_59_Spiral Matrix II", "LeetCode_59_Spiral Matrix II\LeetCode_59_Spiral Matrix II.csproj", "{B09EAF28-6131-407B-B0D8-2A245A88B6D1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCode_59_Spiral Matrix II", "LeetCode_59_Spiral Matrix II\LeetCode_59_Spiral Matrix II.csproj", "{B09EAF28-6131-407B-B0D8-2A245A88B6D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode_242_Valid Anagram", "LeetCode_242_Valid Anagram\LeetCode_242_Valid Anagram.csproj", "{C6FC3646-9791-427C-AF32-E1B3A44E79CB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode_268_Missing Number", "LeetCode_268_Missing Number\LeetCode_268_Missing Number.csproj", "{CFB6711D-AB67-4C99-A72E-7D05182C24CB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode_295_Find Median from Data Stream", "LeetCode_295_Find Median from Data Stream\LeetCode_295_Find Median from Data Stream.csproj", "{3231EA53-D4A7-48D7-8896-EB91FC70972E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -375,6 +381,18 @@ Global
 		{B09EAF28-6131-407B-B0D8-2A245A88B6D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B09EAF28-6131-407B-B0D8-2A245A88B6D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B09EAF28-6131-407B-B0D8-2A245A88B6D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6FC3646-9791-427C-AF32-E1B3A44E79CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6FC3646-9791-427C-AF32-E1B3A44E79CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6FC3646-9791-427C-AF32-E1B3A44E79CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6FC3646-9791-427C-AF32-E1B3A44E79CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFB6711D-AB67-4C99-A72E-7D05182C24CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFB6711D-AB67-4C99-A72E-7D05182C24CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFB6711D-AB67-4C99-A72E-7D05182C24CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFB6711D-AB67-4C99-A72E-7D05182C24CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3231EA53-D4A7-48D7-8896-EB91FC70972E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3231EA53-D4A7-48D7-8896-EB91FC70972E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3231EA53-D4A7-48D7-8896-EB91FC70972E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3231EA53-D4A7-48D7-8896-EB91FC70972E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
