@@ -125,11 +125,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCode_209_Minimum Size S
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCode_59_Spiral Matrix II", "LeetCode_59_Spiral Matrix II\LeetCode_59_Spiral Matrix II.csproj", "{B09EAF28-6131-407B-B0D8-2A245A88B6D1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode_242_Valid Anagram", "LeetCode_242_Valid Anagram\LeetCode_242_Valid Anagram.csproj", "{C6FC3646-9791-427C-AF32-E1B3A44E79CB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCode_242_Valid Anagram", "LeetCode_242_Valid Anagram\LeetCode_242_Valid Anagram.csproj", "{C6FC3646-9791-427C-AF32-E1B3A44E79CB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode_268_Missing Number", "LeetCode_268_Missing Number\LeetCode_268_Missing Number.csproj", "{CFB6711D-AB67-4C99-A72E-7D05182C24CB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCode_268_Missing Number", "LeetCode_268_Missing Number\LeetCode_268_Missing Number.csproj", "{CFB6711D-AB67-4C99-A72E-7D05182C24CB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode_295_Find Median from Data Stream", "LeetCode_295_Find Median from Data Stream\LeetCode_295_Find Median from Data Stream.csproj", "{3231EA53-D4A7-48D7-8896-EB91FC70972E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCode_295_Find Median from Data Stream", "LeetCode_295_Find Median from Data Stream\LeetCode_295_Find Median from Data Stream.csproj", "{3231EA53-D4A7-48D7-8896-EB91FC70972E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode_297_Serialize and Deserialize Binary Tree", "LeetCode_297_Serialize and Deserialize Binary Tree\LeetCode_297_Serialize and Deserialize Binary Tree.csproj", "{A5B28804-2227-41B4-99EA-139157F81CBC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -393,6 +395,10 @@ Global
 		{3231EA53-D4A7-48D7-8896-EB91FC70972E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3231EA53-D4A7-48D7-8896-EB91FC70972E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3231EA53-D4A7-48D7-8896-EB91FC70972E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5B28804-2227-41B4-99EA-139157F81CBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5B28804-2227-41B4-99EA-139157F81CBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5B28804-2227-41B4-99EA-139157F81CBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5B28804-2227-41B4-99EA-139157F81CBC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
