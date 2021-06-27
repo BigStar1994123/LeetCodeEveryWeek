@@ -133,9 +133,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCode_295_Find Median fr
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCode_297_Serialize and Deserialize Binary Tree", "LeetCode_297_Serialize and Deserialize Binary Tree\LeetCode_297_Serialize and Deserialize Binary Tree.csproj", "{A5B28804-2227-41B4-99EA-139157F81CBC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode_300_Longest Increasing Subsequence", "LeetCode_300_Longest Increasing Subsequence\LeetCode_300_Longest Increasing Subsequence.csproj", "{2E545711-C8D5-4A80-AE1B-2F969059EF9E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCode_300_Longest Increasing Subsequence", "LeetCode_300_Longest Increasing Subsequence\LeetCode_300_Longest Increasing Subsequence.csproj", "{2E545711-C8D5-4A80-AE1B-2F969059EF9E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode_322_Coin Change", "LeetCode_322_Coin Change\LeetCode_322_Coin Change.csproj", "{C054F181-5569-485D-8F04-68144D254C55}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCode_322_Coin Change", "LeetCode_322_Coin Change\LeetCode_322_Coin Change.csproj", "{C054F181-5569-485D-8F04-68144D254C55}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCode_338_Counting Bits", "LeetCode_338_Counting Bits\LeetCode_338_Counting Bits.csproj", "{4E269341-2BC5-493E-8C6E-25288D45EA4A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCode_347_Top K Frequent Elements", "LeetCode_347_Top K Frequent Elements\LeetCode_347_Top K Frequent Elements.csproj", "{7E60A252-327A-4ABD-AE79-F8C1AA87529F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode_371_Sum of Two Integers", "LeetCode_371_Sum of Two Integers\LeetCode_371_Sum of Two Integers.csproj", "{83B9EEAF-BC29-4FF0-A8AC-910678C388C2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -411,6 +417,18 @@ Global
 		{C054F181-5569-485D-8F04-68144D254C55}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C054F181-5569-485D-8F04-68144D254C55}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C054F181-5569-485D-8F04-68144D254C55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E269341-2BC5-493E-8C6E-25288D45EA4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E269341-2BC5-493E-8C6E-25288D45EA4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E269341-2BC5-493E-8C6E-25288D45EA4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E269341-2BC5-493E-8C6E-25288D45EA4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E60A252-327A-4ABD-AE79-F8C1AA87529F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E60A252-327A-4ABD-AE79-F8C1AA87529F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E60A252-327A-4ABD-AE79-F8C1AA87529F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E60A252-327A-4ABD-AE79-F8C1AA87529F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83B9EEAF-BC29-4FF0-A8AC-910678C388C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83B9EEAF-BC29-4FF0-A8AC-910678C388C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83B9EEAF-BC29-4FF0-A8AC-910678C388C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83B9EEAF-BC29-4FF0-A8AC-910678C388C2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
