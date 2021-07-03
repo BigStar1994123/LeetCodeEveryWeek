@@ -147,7 +147,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCode_417_Pacific Atlant
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCode_424_Longest Repeating Character Replacement", "LeetCode_424_Longest Repeating Character Replacement\LeetCode_424_Longest Repeating Character Replacement.csproj", "{E0649CE1-C0FD-4781-A1DD-565FB6BF2E63}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode_435_Non-overlapping Intervals", "LeetCode_435_Non-overlapping Intervals\LeetCode_435_Non-overlapping Intervals.csproj", "{B9D940D8-11A7-4F24-B27D-1F5830F169FC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCode_435_Non-overlapping Intervals", "LeetCode_435_Non-overlapping Intervals\LeetCode_435_Non-overlapping Intervals.csproj", "{B9D940D8-11A7-4F24-B27D-1F5830F169FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode_572_Subtree of Another Tree", "LeetCode_572_Subtree of Another Tree\LeetCode_572_Subtree of Another Tree.csproj", "{732FCBD7-A4EE-4BF2-B985-2074E49388C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode_647_Palindromic Substrings", "LeetCode_647_Palindromic Substrings\LeetCode_647_Palindromic Substrings.csproj", "{C242C4C8-2C26-4594-9B62-1B34A0FE6EE7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -447,6 +451,14 @@ Global
 		{B9D940D8-11A7-4F24-B27D-1F5830F169FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B9D940D8-11A7-4F24-B27D-1F5830F169FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B9D940D8-11A7-4F24-B27D-1F5830F169FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{732FCBD7-A4EE-4BF2-B985-2074E49388C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{732FCBD7-A4EE-4BF2-B985-2074E49388C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{732FCBD7-A4EE-4BF2-B985-2074E49388C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{732FCBD7-A4EE-4BF2-B985-2074E49388C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C242C4C8-2C26-4594-9B62-1B34A0FE6EE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C242C4C8-2C26-4594-9B62-1B34A0FE6EE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C242C4C8-2C26-4594-9B62-1B34A0FE6EE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C242C4C8-2C26-4594-9B62-1B34A0FE6EE7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
