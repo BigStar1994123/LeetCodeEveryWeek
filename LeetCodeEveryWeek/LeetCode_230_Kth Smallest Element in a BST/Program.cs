@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections;
 using System.Collections.Generic;
 
 namespace LeetCode_230_Kth_Smallest_Element_in_a_BST

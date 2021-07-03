@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 
 namespace LeetCode_3_Longest_Substring_No_Re_Characters
 {
