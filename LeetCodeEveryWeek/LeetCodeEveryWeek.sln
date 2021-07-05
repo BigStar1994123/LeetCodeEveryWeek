@@ -149,9 +149,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCode_424_Longest Repeat
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCode_435_Non-overlapping Intervals", "LeetCode_435_Non-overlapping Intervals\LeetCode_435_Non-overlapping Intervals.csproj", "{B9D940D8-11A7-4F24-B27D-1F5830F169FC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode_572_Subtree of Another Tree", "LeetCode_572_Subtree of Another Tree\LeetCode_572_Subtree of Another Tree.csproj", "{732FCBD7-A4EE-4BF2-B985-2074E49388C9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCode_572_Subtree of Another Tree", "LeetCode_572_Subtree of Another Tree\LeetCode_572_Subtree of Another Tree.csproj", "{732FCBD7-A4EE-4BF2-B985-2074E49388C9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode_647_Palindromic Substrings", "LeetCode_647_Palindromic Substrings\LeetCode_647_Palindromic Substrings.csproj", "{C242C4C8-2C26-4594-9B62-1B34A0FE6EE7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCode_647_Palindromic Substrings", "LeetCode_647_Palindromic Substrings\LeetCode_647_Palindromic Substrings.csproj", "{C242C4C8-2C26-4594-9B62-1B34A0FE6EE7}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1_to_99", "1_to_99", "{96250E83-FC50-446E-9E71-E9992A52194F}"
 EndProject
@@ -164,6 +164,10 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "400_to_499", "400_to_499", "{3F8DC300-4559-400B-86DE-44836BADF946}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "500_up", "500_up", "{9FE71562-FFCB-4C6C-92D3-50B483DFE3B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode_203_Remove Linked List Elements", "LeetCode_203_Remove Linked List Elements\LeetCode_203_Remove Linked List Elements.csproj", "{2CE0FF61-D7E3-442D-972F-004362A44199}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode_707_Design Linked List", "LeetCode_707_Design Linked List\LeetCode_707_Design Linked List.csproj", "{FEB24E44-C5F6-44AB-9E8A-45328EFCA323}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -471,6 +475,14 @@ Global
 		{C242C4C8-2C26-4594-9B62-1B34A0FE6EE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C242C4C8-2C26-4594-9B62-1B34A0FE6EE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C242C4C8-2C26-4594-9B62-1B34A0FE6EE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CE0FF61-D7E3-442D-972F-004362A44199}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CE0FF61-D7E3-442D-972F-004362A44199}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CE0FF61-D7E3-442D-972F-004362A44199}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CE0FF61-D7E3-442D-972F-004362A44199}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEB24E44-C5F6-44AB-9E8A-45328EFCA323}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEB24E44-C5F6-44AB-9E8A-45328EFCA323}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEB24E44-C5F6-44AB-9E8A-45328EFCA323}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEB24E44-C5F6-44AB-9E8A-45328EFCA323}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -551,6 +563,8 @@ Global
 		{B9D940D8-11A7-4F24-B27D-1F5830F169FC} = {3F8DC300-4559-400B-86DE-44836BADF946}
 		{732FCBD7-A4EE-4BF2-B985-2074E49388C9} = {9FE71562-FFCB-4C6C-92D3-50B483DFE3B0}
 		{C242C4C8-2C26-4594-9B62-1B34A0FE6EE7} = {9FE71562-FFCB-4C6C-92D3-50B483DFE3B0}
+		{2CE0FF61-D7E3-442D-972F-004362A44199} = {A78FDA12-6A4B-4435-873F-6839228D831C}
+		{FEB24E44-C5F6-44AB-9E8A-45328EFCA323} = {9FE71562-FFCB-4C6C-92D3-50B483DFE3B0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {ED727107-54AC-4412-A389-09F44830128D}
