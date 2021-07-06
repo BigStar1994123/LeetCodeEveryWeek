@@ -8,7 +8,7 @@ namespace LeetCode_19_Remove_Nth_Node_From_End_of_List
         private static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
-            var s = new Solution();
+            var s = new Solution3();
             var a = new ListNode(1);
             var b = new ListNode(2);
             var c = new ListNode(3);
@@ -16,14 +16,14 @@ namespace LeetCode_19_Remove_Nth_Node_From_End_of_List
             var e = new ListNode(5);
             //a.next = null;
             a.next = b;
-            b.next = null;
-            //b.next = c;
-            //c.next = d;
-            //d.next = e;
-            //e.next = null;
+            //b.next = null;
+            b.next = c;
+            c.next = d;
+            d.next = e;
+            e.next = null;
 
             //var a = new LinkedList<int>(new int[] { 1, 2, 3, 4, 5 });
-            var n = 2;
+            var n = 5;
 
             a = s.RemoveNthFromEnd(a, n);
 
@@ -36,6 +36,43 @@ namespace LeetCode_19_Remove_Nth_Node_From_End_of_List
                     node = node.next;
                 }
             }
+        }
+    }
+
+    public class Solution3
+    {
+        public ListNode RemoveNthFromEnd(ListNode head, int n)
+        {
+            var stack = new Stack<ListNode>();
+
+            var iter = head;
+            while (iter != null)
+            {
+                stack.Push(iter);
+                iter = iter.next;
+            }
+
+            ListNode beforeNode = null;
+
+            var count = 1;
+            while (count < n)
+            {
+                beforeNode = stack.Pop();
+                count++;
+            }
+
+            var targetNode = stack.Pop();
+            stack.TryPop(out var preNode);
+            if (preNode == null)
+            {
+                head = beforeNode;
+            }
+            else
+            {
+                preNode.next = beforeNode;
+            }
+
+            return head;
         }
     }
 

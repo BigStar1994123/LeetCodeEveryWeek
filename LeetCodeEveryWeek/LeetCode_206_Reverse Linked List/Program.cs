@@ -17,8 +17,27 @@ namespace LeetCode_206_Reverse_Linked_List
             node3.next = node4;
             node4.next = null;
 
-            var s = new Solution();
+            var s = new Solution2();
             Console.WriteLine(s.ReverseList(node1));
+        }
+
+        public class Solution2
+        {
+            public ListNode ReverseList(ListNode head)
+            {
+                ListNode preNode = null;
+                ListNode tempNode = null;
+
+                while (head != null)
+                {
+                    tempNode = head.next;
+                    head.next = preNode;
+                    preNode = head;
+                    head = tempNode;
+                }
+
+                return preNode;
+            }
         }
 
         public class Solution
