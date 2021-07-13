@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>LeetCode_160_Intersection_of_Two_Linked_Lists</RootNamespace>
+  </PropertyGroup>
+
+</Project>
