@@ -169,9 +169,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCode_203_Remove Linked 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCode_707_Design Linked List", "LeetCode_707_Design Linked List\LeetCode_707_Design Linked List.csproj", "{FEB24E44-C5F6-44AB-9E8A-45328EFCA323}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode_160_Intersection of Two Linked Lists", "LeetCode_160_Intersection of Two Linked Lists\LeetCode_160_Intersection of Two Linked Lists.csproj", "{254D62E0-FA1D-45AD-B1CF-79B9D4130707}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCode_160_Intersection of Two Linked Lists", "LeetCode_160_Intersection of Two Linked Lists\LeetCode_160_Intersection of Two Linked Lists.csproj", "{254D62E0-FA1D-45AD-B1CF-79B9D4130707}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode_142_Linked List Cycle II", "LeetCode_142_Linked List Cycle II\LeetCode_142_Linked List Cycle II.csproj", "{15CED3B2-30FF-42B5-B253-F0207AF16B09}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCode_142_Linked List Cycle II", "LeetCode_142_Linked List Cycle II\LeetCode_142_Linked List Cycle II.csproj", "{15CED3B2-30FF-42B5-B253-F0207AF16B09}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode_383_Ransom Note", "LeetCode_383_Ransom Note\LeetCode_383_Ransom Note.csproj", "{7ED9A9A3-5217-4D4E-8AF6-809686B7A317}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -495,6 +497,10 @@ Global
 		{15CED3B2-30FF-42B5-B253-F0207AF16B09}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{15CED3B2-30FF-42B5-B253-F0207AF16B09}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{15CED3B2-30FF-42B5-B253-F0207AF16B09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7ED9A9A3-5217-4D4E-8AF6-809686B7A317}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7ED9A9A3-5217-4D4E-8AF6-809686B7A317}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7ED9A9A3-5217-4D4E-8AF6-809686B7A317}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7ED9A9A3-5217-4D4E-8AF6-809686B7A317}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -579,6 +585,7 @@ Global
 		{FEB24E44-C5F6-44AB-9E8A-45328EFCA323} = {9FE71562-FFCB-4C6C-92D3-50B483DFE3B0}
 		{254D62E0-FA1D-45AD-B1CF-79B9D4130707} = {3D36255A-23BC-4E9A-B126-53D3599701D5}
 		{15CED3B2-30FF-42B5-B253-F0207AF16B09} = {3D36255A-23BC-4E9A-B126-53D3599701D5}
+		{7ED9A9A3-5217-4D4E-8AF6-809686B7A317} = {FC038803-0415-444B-854B-3B8D069B1BAC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {ED727107-54AC-4412-A389-09F44830128D}
