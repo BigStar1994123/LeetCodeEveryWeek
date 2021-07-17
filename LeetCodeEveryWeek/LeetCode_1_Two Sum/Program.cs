@@ -9,7 +9,7 @@ namespace LeetCode_1_Two_Sum
         {
             Console.WriteLine("Hello World!");
 
-            var s = new Solution();
+            var s = new Solution2();
             var nums = new List<int> { 2, 7, 11, 15 };
             var target = 9;
 
@@ -17,6 +17,26 @@ namespace LeetCode_1_Two_Sum
             Console.WriteLine(string.Join(",", result));
 
             Console.ReadLine();
+        }
+    }
+
+    public class Solution2
+    {
+        public int[] TwoSum(int[] nums, int target)
+        {
+            var hash = new Dictionary<int, int>();
+
+            for (int i = 0; i < nums.Length; i++)
+            {
+                if (hash.ContainsKey(nums[i]))
+                {
+                    return (new List<int> { i, hash[nums[i]] }).ToArray();
+                }
+
+                hash.Add(target - nums[i], i);
+            }
+
+            return new int[] { };
         }
     }
 

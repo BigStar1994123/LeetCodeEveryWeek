@@ -10,10 +10,66 @@ namespace LeetCode_15_3Sum
         {
             Console.WriteLine("Hello World!");
 
-            var s = new Solution();
-            var nums = new int[] { 0, 0, 0, 0 };
+            var s = new Solution2();
+            var nums = new int[] { -2, 0, 0, 2, 2 };
+            //var nums = new int[] { 0, 0, 0, 0 };
+            //var nums = new int[] { -1, 0, 1, 2, -1, -4 };
             //Console.WriteLine(s.TwoSum(nums, 6));
-            Console.WriteLine(s.ThreeSum(nums));
+            var result = s.ThreeSum(nums);
+        }
+    }
+
+    public class Solution2
+    {
+        public IList<IList<int>> ThreeSum(int[] nums)
+        {
+            var result = new List<IList<int>>();
+
+            Array.Sort(nums);
+
+            for (int i = 0; i < nums.Length - 2; i++)
+            {
+                if (i > 0 && nums[i - 1] == nums[i])
+                {
+                    continue;
+                }
+
+                var left = i + 1;
+                var right = nums.Length - 1; // The last index
+
+                while (left < right)
+                {
+                    var sum = nums[i] + nums[left] + nums[right];
+
+                    if (sum == 0)
+                    {
+                        result.Add(new List<int> { nums[i], nums[left], nums[right] });
+
+                        while (right > left && nums[right] == nums[right - 1])
+                        {
+                            right--;
+                        }
+
+                        while (right > left && nums[left] == nums[left + 1])
+                        {
+                            left++;
+                        }
+
+                        left++;
+                        right--;
+                    }
+                    else if (sum < 0)
+                    {
+                        left++;
+                    }
+                    else
+                    {
+                        right--;
+                    }
+                }
+            }
+
+            return result;
         }
     }
 
