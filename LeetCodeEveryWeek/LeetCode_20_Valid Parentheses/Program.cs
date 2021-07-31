@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace LeetCode_20_Valid_Parentheses
 {
@@ -9,10 +10,49 @@ namespace LeetCode_20_Valid_Parentheses
         {
             Console.WriteLine("Hello World!");
 
-            var s = new Solution();
+            var s = new Solution2();
 
-            var text = "(]";
+            var text = "{[]}";
             Console.WriteLine(s.IsValid(text));
+        }
+    }
+
+    public class Solution2
+    {
+        public bool IsValid(string s)
+        {
+            var stack = new Stack<char>();
+            var right = new char[] { ')', '}', ']' };
+
+            foreach (var c in s)
+            {
+                if (right.Contains(c))
+                {
+                    var popSuccess = stack.TryPop(out var popValue);
+                    if (!popSuccess)
+                    {
+                        return false;
+                    }
+
+                    if ((c == ')' && popValue != '(') ||
+                        (c == '}' && popValue != '{') ||
+                        (c == ']' && popValue != '['))
+                    {
+                        return false;
+                    }
+                }
+                else
+                {
+                    stack.Push(c);
+                }
+            }
+
+            if (stack.Count > 0)
+            {
+                return false;
+            }
+
+            return true;
         }
     }
 
