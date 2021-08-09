@@ -25,6 +25,37 @@ namespace LeetCode_102_Binary_Tree_Level_Order_Traversal
         }
     }
 
+    public class Solution2
+    {
+        public IList<IList<int>> LevelOrder(TreeNode root)
+        {
+            var result = new List<IList<int>>();
+            var queue = new Queue<TreeNode>();
+            queue.Enqueue(root);
+
+            while (queue.Count > 0)
+            {
+                var data = new List<int>();
+                var queueSize = queue.Count;
+
+                for (int i = 0; i < queueSize; i++)
+                {
+                    var node = queue.Dequeue();
+                    if (node == null)
+                        continue;
+                    data.Add(node.val);
+                    queue.Enqueue(node.left);
+                    queue.Enqueue(node.right);
+                }
+
+                if (data.Count > 0)
+                    result.Add(data);
+            }
+
+            return result;
+        }
+    }
+
     public class Solution
     {
         public IList<IList<int>> LevelOrder(TreeNode root)
