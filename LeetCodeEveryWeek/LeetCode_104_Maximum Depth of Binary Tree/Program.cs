@@ -19,8 +19,36 @@ namespace LeetCode_104_Maximum_Depth_of_Binary_Tree
             c.left = d;
             c.right = e;
 
-            var s = new Solution();
+            var s = new Solution2();
             Console.WriteLine(s.MaxDepth(a));
+        }
+    }
+
+    public class Solution2
+    {
+        public int MaxDepth(TreeNode root)
+        {
+            if (root == null)
+            {
+                return 0;
+            }
+
+            var max = 0;
+            Next(root, 0, ref max);
+
+            return max;
+        }
+
+        private void Next(TreeNode node, int curHigh, ref int maxHigh)
+        {
+            if (node == null)
+                return;
+
+            curHigh += 1;
+            maxHigh = Math.Max(maxHigh, curHigh);
+
+            Next(node.left, curHigh, ref maxHigh);
+            Next(node.right, curHigh, ref maxHigh);
         }
     }
 
