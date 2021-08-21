@@ -217,15 +217,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCode_199_Binary Tree Ri
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCode_637_Average of Levels in Binary Tree", "LeetCode_637_Average of Levels in Binary Tree\LeetCode_637_Average of Levels in Binary Tree.csproj", "{848A34B1-F794-4747-B549-D112B51CDA84}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode_429_N-ary Tree Level Order Traversal", "LeetCode_429_N-ary Tree Level Order Traversal\LeetCode_429_N-ary Tree Level Order Traversal.csproj", "{F393E83E-ADFB-4D5B-8FE5-18A850CB1537}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCode_429_N-ary Tree Level Order Traversal", "LeetCode_429_N-ary Tree Level Order Traversal\LeetCode_429_N-ary Tree Level Order Traversal.csproj", "{F393E83E-ADFB-4D5B-8FE5-18A850CB1537}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode_101_Symmetric Tree", "LeetCode_101_Symmetric Tree\LeetCode_101_Symmetric Tree.csproj", "{1E0F4ABC-9447-4D5B-A195-707456CF4826}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCode_101_Symmetric Tree", "LeetCode_101_Symmetric Tree\LeetCode_101_Symmetric Tree.csproj", "{1E0F4ABC-9447-4D5B-A195-707456CF4826}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode_559_Maximum Depth of N-ary Tree", "LeetCode_559_Maximum Depth of N-ary Tree\LeetCode_559_Maximum Depth of N-ary Tree.csproj", "{5B6E860E-7613-408C-8D16-0C9426CB1A2B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCode_559_Maximum Depth of N-ary Tree", "LeetCode_559_Maximum Depth of N-ary Tree\LeetCode_559_Maximum Depth of N-ary Tree.csproj", "{5B6E860E-7613-408C-8D16-0C9426CB1A2B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode_111_Minimum Depth of Binary Tree", "LeetCode_111_Minimum Depth of Binary Tree\LeetCode_111_Minimum Depth of Binary Tree.csproj", "{E81EEADC-333D-45A0-B377-055DC30552B2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCode_111_Minimum Depth of Binary Tree", "LeetCode_111_Minimum Depth of Binary Tree\LeetCode_111_Minimum Depth of Binary Tree.csproj", "{E81EEADC-333D-45A0-B377-055DC30552B2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode_222_Count Complete Tree Nodes", "LeetCode_222_Count Complete Tree Nodes\LeetCode_222_Count Complete Tree Nodes.csproj", "{9C7CFA38-6A9C-4D57-A9EA-7B053CDCE054}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCode_222_Count Complete Tree Nodes", "LeetCode_222_Count Complete Tree Nodes\LeetCode_222_Count Complete Tree Nodes.csproj", "{9C7CFA38-6A9C-4D57-A9EA-7B053CDCE054}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode_110_Balanced Binary Tree", "LeetCode_110_Balanced Binary Tree\LeetCode_110_Balanced Binary Tree.csproj", "{E75BD406-77FD-476D-B888-E742A7919054}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode_257_Binary Tree Paths", "LeetCode_257_Binary Tree Paths\LeetCode_257_Binary Tree Paths.csproj", "{2BF332CE-E24E-408A-9ADE-7E8AF587C84E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -657,6 +661,14 @@ Global
 		{9C7CFA38-6A9C-4D57-A9EA-7B053CDCE054}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9C7CFA38-6A9C-4D57-A9EA-7B053CDCE054}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9C7CFA38-6A9C-4D57-A9EA-7B053CDCE054}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E75BD406-77FD-476D-B888-E742A7919054}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E75BD406-77FD-476D-B888-E742A7919054}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E75BD406-77FD-476D-B888-E742A7919054}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E75BD406-77FD-476D-B888-E742A7919054}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BF332CE-E24E-408A-9ADE-7E8AF587C84E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BF332CE-E24E-408A-9ADE-7E8AF587C84E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BF332CE-E24E-408A-9ADE-7E8AF587C84E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BF332CE-E24E-408A-9ADE-7E8AF587C84E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -768,6 +780,8 @@ Global
 		{5B6E860E-7613-408C-8D16-0C9426CB1A2B} = {9FE71562-FFCB-4C6C-92D3-50B483DFE3B0}
 		{E81EEADC-333D-45A0-B377-055DC30552B2} = {3D36255A-23BC-4E9A-B126-53D3599701D5}
 		{9C7CFA38-6A9C-4D57-A9EA-7B053CDCE054} = {A78FDA12-6A4B-4435-873F-6839228D831C}
+		{E75BD406-77FD-476D-B888-E742A7919054} = {3D36255A-23BC-4E9A-B126-53D3599701D5}
+		{2BF332CE-E24E-408A-9ADE-7E8AF587C84E} = {A78FDA12-6A4B-4435-873F-6839228D831C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {ED727107-54AC-4412-A389-09F44830128D}
