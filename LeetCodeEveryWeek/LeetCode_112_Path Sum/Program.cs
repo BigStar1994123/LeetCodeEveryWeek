@@ -8,14 +8,16 @@ namespace LeetCode_112_Path_Sum
         {
             Console.WriteLine("Hello World!");
 
-            var node = new TreeNode(1);
-            var leftNode = new TreeNode(2);
-            node.left = leftNode;
+            var node = new TreeNode(1, new TreeNode(2), null);
 
-            var rightNode = new TreeNode(3, new TreeNode(4));
-            node.right = rightNode;
+            //var node = new TreeNode(1);
+            //var leftNode = new TreeNode(2);
+            //node.left = leftNode;
 
-            var target = 4;
+            //var rightNode = new TreeNode(3, new TreeNode(4), null);
+            //node.right = rightNode;
+
+            var target = 1;
 
             var s = new Solution();
             Console.WriteLine(s.HasPathSum(node, target));
@@ -40,7 +42,10 @@ namespace LeetCode_112_Path_Sum
         {
             public bool HasPathSum(TreeNode root, int targetSum)
             {
-                return DFS(root, 0, targetSum);
+                if (root == null)
+                    return false;
+
+                return DFS(root, targetSum, 0);
             }
 
             private bool DFS(TreeNode node, int targetSum, int preSum)
@@ -50,12 +55,12 @@ namespace LeetCode_112_Path_Sum
                     return false;
                 }
 
-                var sum = preSum + node.val;
-                if (sum == targetSum)
+                if (node.left == null && node.right == null)
                 {
-                    return true;
+                    return preSum + node.val == targetSum;
                 }
 
+                var sum = preSum + node.val;
                 return DFS(node.left, targetSum, sum) || DFS(node.right, targetSum, sum);
             }
         }

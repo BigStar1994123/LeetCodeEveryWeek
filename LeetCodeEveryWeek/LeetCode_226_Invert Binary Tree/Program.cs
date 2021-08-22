@@ -32,6 +32,23 @@ namespace LeetCode_226_Invert_Binary_Tree
             }
         }
 
+        public class Solution2
+        {
+            public TreeNode InvertTree(TreeNode root)
+            {
+                if (root == null)
+                {
+                    return root;
+                }
+
+                var temp = InvertTree(root.left);
+                root.left = InvertTree(root.right);
+                root.right = temp;
+
+                return root;
+            }
+        }
+
         public class Solution
         {
             public TreeNode InvertTree(TreeNode root)
