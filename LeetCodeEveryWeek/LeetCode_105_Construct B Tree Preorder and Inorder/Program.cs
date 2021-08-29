@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 
 namespace LeetCode_105_Construct_B_Tree_Preorder_and_Inorder
 {
@@ -8,22 +9,52 @@ namespace LeetCode_105_Construct_B_Tree_Preorder_and_Inorder
         {
             Console.WriteLine("Hello World!");
 
-            var a = new TreeNode(3);
-            var b = new TreeNode(9);
-            var c = new TreeNode(20);
-            var d = new TreeNode(15);
-            var e = new TreeNode(7);
+            //var a = new TreeNode(3);
+            //var b = new TreeNode(9);
+            //var c = new TreeNode(20);
+            //var d = new TreeNode(15);
+            //var e = new TreeNode(7);
 
-            a.left = b;
-            a.right = c;
-            c.left = d;
-            c.right = e;
+            //a.left = b;
+            //a.right = c;
+            //c.left = d;
+            //c.right = e;
 
             var preorder = new int[] { 3, 9, 20, 15, 7 };
             var inorder = new int[] { 9, 3, 15, 20, 7 };
 
-            var s = new Solution();
+            var s = new Solution2();
             var node = s.BuildTree(preorder, inorder);
+        }
+    }
+
+    public class Solution2
+    {
+        public TreeNode BuildTree(int[] preorder, int[] inorder)
+        {
+            return Build(preorder, inorder, new TreeNode());
+        }
+
+        private TreeNode Build(int[] preorder, int[] inorder, TreeNode node)
+        {
+            if (inorder.Length == 0)
+            {
+                return null;
+            }
+            else if (preorder.Length == 1)
+            {
+                node.val = preorder[0];
+                return node;
+            }
+
+            var preorderFirstValue = preorder[0];
+            var inorderIndex = Array.IndexOf(inorder, preorderFirstValue);
+
+            node.val = preorderFirstValue;
+            node.left = Build(preorder.Skip(1).Take(inorderIndex).ToArray(), inorder.Take(inorderIndex).ToArray(), new TreeNode());
+            node.right = Build(preorder[(inorderIndex + 1)..].ToArray(), inorder[(inorderIndex + 1)..].ToArray(), new TreeNode());
+
+            return node;
         }
     }
 
