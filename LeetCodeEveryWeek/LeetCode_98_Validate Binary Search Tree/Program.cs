@@ -8,15 +8,60 @@ namespace LeetCode_98_Validate_Binary_Search_Tree
         {
             Console.WriteLine("Hello World!");
 
-            var a = new TreeNode(1);
-            var b = new TreeNode(2);
-            var c = new TreeNode(3);
+            //var node = new TreeNode(5, new TreeNode(4), new TreeNode(6, new TreeNode(3), new TreeNode(7)));
+            //var node = new TreeNode(3, new TreeNode(1, new TreeNode(0), new TreeNode(2)), new TreeNode(5, new TreeNode(4), new TreeNode(6)));
+            var node = new TreeNode(-2147483648, null, new TreeNode(2147483647));
 
-            b.left = a;
-            b.right = c;
+            //var a = new TreeNode(2);
+            //var b = new TreeNode(2);
+            //var c = new TreeNode(2);
 
-            var s = new Solution();
-            Console.WriteLine(s.IsValidBST(b));
+            //b.left = a;
+            //b.right = c;
+
+            //var node = new TreeNode(0, new TreeNode(-1));
+
+            var s = new Solution2();
+            Console.WriteLine(s.IsValidBST(node));
+        }
+    }
+
+    public class Solution2
+    {
+        public bool IsValidBST(TreeNode root)
+        {
+            if (root == null)
+            {
+                return true;
+            }
+
+            if (root.left != null && root.right == null)
+            {
+                return CheckValid(root.left, null, root.val);
+            }
+
+            if (root.left == null && root.right != null)
+            {
+                return CheckValid(root.right, root.val, null);
+            }
+
+            return CheckValid(root.left, null, root.val) && CheckValid(root.right, root.val, null);
+        }
+
+        private bool CheckValid(TreeNode node, int? minVal, int? maxVal)
+        {
+            if (node == null)
+            {
+                return true;
+            }
+
+            if ((maxVal != null && node.val >= maxVal) ||
+                (minVal != null && node.val <= minVal))
+            {
+                return false;
+            }
+
+            return CheckValid(node.left, minVal, node.val) && CheckValid(node.right, node.val, maxVal);
         }
     }
 
