@@ -247,9 +247,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCode_617_Merge Two Bina
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCode_700_Search in a Binary Search Tree", "LeetCode_700_Search in a Binary Search Tree\LeetCode_700_Search in a Binary Search Tree.csproj", "{D9918377-1140-411C-94A5-E6053F358FAE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode_530_Minimum Absolute Difference in BST", "LeetCode_530_Minimum Absolute Difference in BST\LeetCode_530_Minimum Absolute Difference in BST.csproj", "{D0E5646C-B0E5-4C95-99B3-DA0AA8160E4C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCode_530_Minimum Absolute Difference in BST", "LeetCode_530_Minimum Absolute Difference in BST\LeetCode_530_Minimum Absolute Difference in BST.csproj", "{D0E5646C-B0E5-4C95-99B3-DA0AA8160E4C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode_501_Find Mode in Binary Search Tree", "LeetCode_501_Find Mode in Binary Search Tree\LeetCode_501_Find Mode in Binary Search Tree.csproj", "{8E2BB5ED-0E22-43A1-A02A-78B01CFC1F3E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCode_501_Find Mode in Binary Search Tree", "LeetCode_501_Find Mode in Binary Search Tree\LeetCode_501_Find Mode in Binary Search Tree.csproj", "{8E2BB5ED-0E22-43A1-A02A-78B01CFC1F3E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode_538_Convert BST to Greater Tree", "LeetCode_538_Convert BST to Greater Tree\LeetCode_538_Convert BST to Greater Tree.csproj", "{4558AFA4-906B-4391-AE02-229FF318BD2D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode_236_Lowest Common Ancestor of a Binary Tree", "LeetCode_236_Lowest Common Ancestor of a Binary Tree\LeetCode_236_Lowest Common Ancestor of a Binary Tree.csproj", "{DD0244F8-9B20-43A2-A8C1-1846BC4B9D6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode_701_Insert into a Binary Search Tree", "LeetCode_701_Insert into a Binary Search Tree\LeetCode_701_Insert into a Binary Search Tree.csproj", "{7C14246C-B0DE-4BC1-AAE7-D730035518AA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -729,6 +735,18 @@ Global
 		{8E2BB5ED-0E22-43A1-A02A-78B01CFC1F3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8E2BB5ED-0E22-43A1-A02A-78B01CFC1F3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8E2BB5ED-0E22-43A1-A02A-78B01CFC1F3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4558AFA4-906B-4391-AE02-229FF318BD2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4558AFA4-906B-4391-AE02-229FF318BD2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4558AFA4-906B-4391-AE02-229FF318BD2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4558AFA4-906B-4391-AE02-229FF318BD2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD0244F8-9B20-43A2-A8C1-1846BC4B9D6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD0244F8-9B20-43A2-A8C1-1846BC4B9D6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD0244F8-9B20-43A2-A8C1-1846BC4B9D6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD0244F8-9B20-43A2-A8C1-1846BC4B9D6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C14246C-B0DE-4BC1-AAE7-D730035518AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C14246C-B0DE-4BC1-AAE7-D730035518AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C14246C-B0DE-4BC1-AAE7-D730035518AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C14246C-B0DE-4BC1-AAE7-D730035518AA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -852,6 +870,9 @@ Global
 		{D9918377-1140-411C-94A5-E6053F358FAE} = {9FE71562-FFCB-4C6C-92D3-50B483DFE3B0}
 		{D0E5646C-B0E5-4C95-99B3-DA0AA8160E4C} = {9FE71562-FFCB-4C6C-92D3-50B483DFE3B0}
 		{8E2BB5ED-0E22-43A1-A02A-78B01CFC1F3E} = {9FE71562-FFCB-4C6C-92D3-50B483DFE3B0}
+		{4558AFA4-906B-4391-AE02-229FF318BD2D} = {9FE71562-FFCB-4C6C-92D3-50B483DFE3B0}
+		{DD0244F8-9B20-43A2-A8C1-1846BC4B9D6F} = {A78FDA12-6A4B-4435-873F-6839228D831C}
+		{7C14246C-B0DE-4BC1-AAE7-D730035518AA} = {9FE71562-FFCB-4C6C-92D3-50B483DFE3B0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {ED727107-54AC-4412-A389-09F44830128D}

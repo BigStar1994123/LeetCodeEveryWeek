@@ -36,6 +36,37 @@ namespace LeetCode_235_Lowest_Common_Ancestor_Binary_Search_Tree
             }
         }
 
+        public class Solution2
+        {
+            public TreeNode LowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q)
+            {
+                if (root == null)
+                {
+                    return root;
+                }
+
+                if (root.val > p.val && root.val > q.val)
+                {
+                    var left = LowestCommonAncestor(root.left, p, q);
+                    if (left != null)
+                    {
+                        return left;
+                    }
+                }
+
+                if (root.val < p.val && root.val < q.val)
+                {
+                    var right = LowestCommonAncestor(root.right, p, q);
+                    if (right != null)
+                    {
+                        return right;
+                    }
+                }
+
+                return root;
+            }
+        }
+
         public class Solution
         {
             public TreeNode LowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q)
