@@ -251,11 +251,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCode_530_Minimum Absolu
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCode_501_Find Mode in Binary Search Tree", "LeetCode_501_Find Mode in Binary Search Tree\LeetCode_501_Find Mode in Binary Search Tree.csproj", "{8E2BB5ED-0E22-43A1-A02A-78B01CFC1F3E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode_538_Convert BST to Greater Tree", "LeetCode_538_Convert BST to Greater Tree\LeetCode_538_Convert BST to Greater Tree.csproj", "{4558AFA4-906B-4391-AE02-229FF318BD2D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCode_538_Convert BST to Greater Tree", "LeetCode_538_Convert BST to Greater Tree\LeetCode_538_Convert BST to Greater Tree.csproj", "{4558AFA4-906B-4391-AE02-229FF318BD2D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode_236_Lowest Common Ancestor of a Binary Tree", "LeetCode_236_Lowest Common Ancestor of a Binary Tree\LeetCode_236_Lowest Common Ancestor of a Binary Tree.csproj", "{DD0244F8-9B20-43A2-A8C1-1846BC4B9D6F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCode_236_Lowest Common Ancestor of a Binary Tree", "LeetCode_236_Lowest Common Ancestor of a Binary Tree\LeetCode_236_Lowest Common Ancestor of a Binary Tree.csproj", "{DD0244F8-9B20-43A2-A8C1-1846BC4B9D6F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode_701_Insert into a Binary Search Tree", "LeetCode_701_Insert into a Binary Search Tree\LeetCode_701_Insert into a Binary Search Tree.csproj", "{7C14246C-B0DE-4BC1-AAE7-D730035518AA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCode_701_Insert into a Binary Search Tree", "LeetCode_701_Insert into a Binary Search Tree\LeetCode_701_Insert into a Binary Search Tree.csproj", "{7C14246C-B0DE-4BC1-AAE7-D730035518AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode_450_Delete Node in a BST", "LeetCode_450_Delete Node in a BST\LeetCode_450_Delete Node in a BST.csproj", "{815CDF6D-DB7B-4D33-9DE1-A01F662A9A25}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode_669_Trim a Binary Search Tree", "LeetCode_669_Trim a Binary Search Tree\LeetCode_669_Trim a Binary Search Tree.csproj", "{FFB999AA-2F19-42FA-816A-2DDE430BFE03}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode_108_Convert Sorted Array to Binary Search Tree", "LeetCode_108_Convert Sorted Array to Binary Search Tree\LeetCode_108_Convert Sorted Array to Binary Search Tree.csproj", "{97F2EE34-0FF6-4F2F-8E1B-DC0934C44CEC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -747,6 +753,18 @@ Global
 		{7C14246C-B0DE-4BC1-AAE7-D730035518AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7C14246C-B0DE-4BC1-AAE7-D730035518AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7C14246C-B0DE-4BC1-AAE7-D730035518AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{815CDF6D-DB7B-4D33-9DE1-A01F662A9A25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{815CDF6D-DB7B-4D33-9DE1-A01F662A9A25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{815CDF6D-DB7B-4D33-9DE1-A01F662A9A25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{815CDF6D-DB7B-4D33-9DE1-A01F662A9A25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFB999AA-2F19-42FA-816A-2DDE430BFE03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFB999AA-2F19-42FA-816A-2DDE430BFE03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFB999AA-2F19-42FA-816A-2DDE430BFE03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFB999AA-2F19-42FA-816A-2DDE430BFE03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97F2EE34-0FF6-4F2F-8E1B-DC0934C44CEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97F2EE34-0FF6-4F2F-8E1B-DC0934C44CEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97F2EE34-0FF6-4F2F-8E1B-DC0934C44CEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97F2EE34-0FF6-4F2F-8E1B-DC0934C44CEC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -873,6 +891,9 @@ Global
 		{4558AFA4-906B-4391-AE02-229FF318BD2D} = {9FE71562-FFCB-4C6C-92D3-50B483DFE3B0}
 		{DD0244F8-9B20-43A2-A8C1-1846BC4B9D6F} = {A78FDA12-6A4B-4435-873F-6839228D831C}
 		{7C14246C-B0DE-4BC1-AAE7-D730035518AA} = {9FE71562-FFCB-4C6C-92D3-50B483DFE3B0}
+		{815CDF6D-DB7B-4D33-9DE1-A01F662A9A25} = {3F8DC300-4559-400B-86DE-44836BADF946}
+		{FFB999AA-2F19-42FA-816A-2DDE430BFE03} = {9FE71562-FFCB-4C6C-92D3-50B483DFE3B0}
+		{97F2EE34-0FF6-4F2F-8E1B-DC0934C44CEC} = {3D36255A-23BC-4E9A-B126-53D3599701D5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {ED727107-54AC-4412-A389-09F44830128D}
