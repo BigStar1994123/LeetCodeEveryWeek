@@ -271,6 +271,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCode_40_Combination Sum
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode_17_Letter Combinations of a Phone Number", "LeetCode_17_Letter Combinations of a Phone Number\LeetCode_17_Letter Combinations of a Phone Number.csproj", "{D32D582A-2358-4A08-BB7D-71213AC1B774}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode_78_Subsets", "LeetCode_78_Subsets\LeetCode_78_Subsets.csproj", "{577AC753-D145-4D30-8F82-0BC16E76D5D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode_90_Subsets II", "LeetCode_90_Subsets II\LeetCode_90_Subsets II.csproj", "{EA6998DE-2D56-4675-A72C-69B37703EE96}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -789,6 +793,14 @@ Global
 		{D32D582A-2358-4A08-BB7D-71213AC1B774}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D32D582A-2358-4A08-BB7D-71213AC1B774}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D32D582A-2358-4A08-BB7D-71213AC1B774}.Release|Any CPU.Build.0 = Release|Any CPU
+		{577AC753-D145-4D30-8F82-0BC16E76D5D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{577AC753-D145-4D30-8F82-0BC16E76D5D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{577AC753-D145-4D30-8F82-0BC16E76D5D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{577AC753-D145-4D30-8F82-0BC16E76D5D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA6998DE-2D56-4675-A72C-69B37703EE96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA6998DE-2D56-4675-A72C-69B37703EE96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA6998DE-2D56-4675-A72C-69B37703EE96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA6998DE-2D56-4675-A72C-69B37703EE96}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -922,6 +934,8 @@ Global
 		{BE941D48-1A58-467A-83D1-DE080070B6A7} = {A78FDA12-6A4B-4435-873F-6839228D831C}
 		{A32C08D8-B50A-49A4-91A7-DD500162312A} = {96250E83-FC50-446E-9E71-E9992A52194F}
 		{D32D582A-2358-4A08-BB7D-71213AC1B774} = {96250E83-FC50-446E-9E71-E9992A52194F}
+		{577AC753-D145-4D30-8F82-0BC16E76D5D4} = {96250E83-FC50-446E-9E71-E9992A52194F}
+		{EA6998DE-2D56-4675-A72C-69B37703EE96} = {96250E83-FC50-446E-9E71-E9992A52194F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {ED727107-54AC-4412-A389-09F44830128D}
