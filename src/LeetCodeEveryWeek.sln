@@ -269,13 +269,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCode_216_Combination Su
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCode_40_Combination Sum II", "LeetCode_40_Combination Sum II\LeetCode_40_Combination Sum II.csproj", "{A32C08D8-B50A-49A4-91A7-DD500162312A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode_17_Letter Combinations of a Phone Number", "LeetCode_17_Letter Combinations of a Phone Number\LeetCode_17_Letter Combinations of a Phone Number.csproj", "{D32D582A-2358-4A08-BB7D-71213AC1B774}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCode_17_Letter Combinations of a Phone Number", "LeetCode_17_Letter Combinations of a Phone Number\LeetCode_17_Letter Combinations of a Phone Number.csproj", "{D32D582A-2358-4A08-BB7D-71213AC1B774}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode_78_Subsets", "LeetCode_78_Subsets\LeetCode_78_Subsets.csproj", "{577AC753-D145-4D30-8F82-0BC16E76D5D4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCode_78_Subsets", "LeetCode_78_Subsets\LeetCode_78_Subsets.csproj", "{577AC753-D145-4D30-8F82-0BC16E76D5D4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode_90_Subsets II", "LeetCode_90_Subsets II\LeetCode_90_Subsets II.csproj", "{EA6998DE-2D56-4675-A72C-69B37703EE96}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCode_90_Subsets II", "LeetCode_90_Subsets II\LeetCode_90_Subsets II.csproj", "{EA6998DE-2D56-4675-A72C-69B37703EE96}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode_491_Increasing Subsequences", "LeetCode_491_Increasing Subsequences\LeetCode_491_Increasing Subsequences.csproj", "{669576A0-B741-4200-87E3-142ECBF129D2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCode_491_Increasing Subsequences", "LeetCode_491_Increasing Subsequences\LeetCode_491_Increasing Subsequences.csproj", "{669576A0-B741-4200-87E3-142ECBF129D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode_131_Palindrome Partitioning", "LeetCode_131_Palindrome Partitioning\LeetCode_131_Palindrome Partitioning.csproj", "{28C43DCC-FA0F-43CB-9D29-3312FB9C77B4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -807,6 +809,10 @@ Global
 		{669576A0-B741-4200-87E3-142ECBF129D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{669576A0-B741-4200-87E3-142ECBF129D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{669576A0-B741-4200-87E3-142ECBF129D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28C43DCC-FA0F-43CB-9D29-3312FB9C77B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28C43DCC-FA0F-43CB-9D29-3312FB9C77B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28C43DCC-FA0F-43CB-9D29-3312FB9C77B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28C43DCC-FA0F-43CB-9D29-3312FB9C77B4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -943,6 +949,7 @@ Global
 		{577AC753-D145-4D30-8F82-0BC16E76D5D4} = {96250E83-FC50-446E-9E71-E9992A52194F}
 		{EA6998DE-2D56-4675-A72C-69B37703EE96} = {96250E83-FC50-446E-9E71-E9992A52194F}
 		{669576A0-B741-4200-87E3-142ECBF129D2} = {3F8DC300-4559-400B-86DE-44836BADF946}
+		{28C43DCC-FA0F-43CB-9D29-3312FB9C77B4} = {3D36255A-23BC-4E9A-B126-53D3599701D5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {ED727107-54AC-4412-A389-09F44830128D}
