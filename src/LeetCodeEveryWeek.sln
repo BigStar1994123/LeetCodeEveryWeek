@@ -293,13 +293,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCode_455_Assign Cookies
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCode_1005_Maximize Sum Of Array After K Negations", "LeetCode_1005_Maximize Sum Of Array After K Negations\LeetCode_1005_Maximize Sum Of Array After K Negations.csproj", "{D2A17F68-C27B-4ED0-9C89-CCC647A0078A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode_860_Lemonade Change", "LeetCode_860_Lemonade Change\LeetCode_860_Lemonade Change.csproj", "{8BCBCB46-371B-4F9B-990F-B5D734BF2AB0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCode_860_Lemonade Change", "LeetCode_860_Lemonade Change\LeetCode_860_Lemonade Change.csproj", "{8BCBCB46-371B-4F9B-990F-B5D734BF2AB0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode_376_Wiggle Subsequence", "LeetCode_376_Wiggle Subsequence\LeetCode_376_Wiggle Subsequence.csproj", "{5D636FDB-808D-44F4-8C32-3C9DE925FB76}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCode_376_Wiggle Subsequence", "LeetCode_376_Wiggle Subsequence\LeetCode_376_Wiggle Subsequence.csproj", "{5D636FDB-808D-44F4-8C32-3C9DE925FB76}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode_738_Monotone Increasing Digits", "LeetCode_738_Monotone Increasing Digits\LeetCode_738_Monotone Increasing Digits.csproj", "{183A59BA-3FDD-4752-8536-BF145113AC5F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCode_738_Monotone Increasing Digits", "LeetCode_738_Monotone Increasing Digits\LeetCode_738_Monotone Increasing Digits.csproj", "{183A59BA-3FDD-4752-8536-BF145113AC5F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode_122_Best Time to Buy and Sell Stock II", "LeetCode_122_Best Time to Buy and Sell Stock II\LeetCode_122_Best Time to Buy and Sell Stock II.csproj", "{CCD7C7B7-8E3C-4232-9ABE-8C1034498380}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCode_122_Best Time to Buy and Sell Stock II", "LeetCode_122_Best Time to Buy and Sell Stock II\LeetCode_122_Best Time to Buy and Sell Stock II.csproj", "{CCD7C7B7-8E3C-4232-9ABE-8C1034498380}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode_406_Queue Reconstruction by Height", "LeetCode_406_Queue Reconstruction by Height\LeetCode_406_Queue Reconstruction by Height.csproj", "{D6CEB1AE-3C4A-43D8-BBF6-43B4638C5A7D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -879,6 +881,10 @@ Global
 		{CCD7C7B7-8E3C-4232-9ABE-8C1034498380}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CCD7C7B7-8E3C-4232-9ABE-8C1034498380}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CCD7C7B7-8E3C-4232-9ABE-8C1034498380}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6CEB1AE-3C4A-43D8-BBF6-43B4638C5A7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6CEB1AE-3C4A-43D8-BBF6-43B4638C5A7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6CEB1AE-3C4A-43D8-BBF6-43B4638C5A7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6CEB1AE-3C4A-43D8-BBF6-43B4638C5A7D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1027,6 +1033,7 @@ Global
 		{5D636FDB-808D-44F4-8C32-3C9DE925FB76} = {FC038803-0415-444B-854B-3B8D069B1BAC}
 		{183A59BA-3FDD-4752-8536-BF145113AC5F} = {9FE71562-FFCB-4C6C-92D3-50B483DFE3B0}
 		{CCD7C7B7-8E3C-4232-9ABE-8C1034498380} = {3D36255A-23BC-4E9A-B126-53D3599701D5}
+		{D6CEB1AE-3C4A-43D8-BBF6-43B4638C5A7D} = {3F8DC300-4559-400B-86DE-44836BADF946}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {ED727107-54AC-4412-A389-09F44830128D}

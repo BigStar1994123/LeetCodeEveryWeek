@@ -11,8 +11,38 @@ namespace LeetCode_714_BestTimeBuySellStock_with_Transaction_Fee
             var prices = new int[] { 1, 3, 2, 8, 4, 9 };
             var fee = 2;
 
-            var s = new Solution();
+            var s = new Solution2();
             Console.WriteLine(s.MaxProfit(prices, fee));
+        }
+
+        public class Solution2
+        {
+            public int MaxProfit(int[] prices, int fee)
+            {
+                var profit = 0;
+                var minPrice = prices[0];
+
+                for (int i = 1; i < prices.Length; i++)
+                {
+                    if (prices[i] < minPrice)
+                    {
+                        minPrice = prices[i];
+                    }
+
+                    if (prices[i] >= minPrice && prices[i] - minPrice <= fee)
+                    {
+                        continue;
+                    }
+
+                    if (prices[i] - minPrice > fee)
+                    {
+                        profit += prices[i] - minPrice - fee;
+                        minPrice = prices[i] - fee;
+                    }
+                }
+
+                return profit;
+            }
         }
 
         public class Solution
