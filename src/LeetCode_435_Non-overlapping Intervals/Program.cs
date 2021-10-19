@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 
 namespace LeetCode_435_Non_overlapping_Intervals
 {
@@ -16,8 +17,33 @@ namespace LeetCode_435_Non_overlapping_Intervals
                 new int[] { 1,3 },
             };
 
-            var s = new Solution();
+            var s = new Solution2();
             Console.WriteLine(s.EraseOverlapIntervals(array2d));
+        }
+
+        public class Solution2
+        {
+            public int EraseOverlapIntervals(int[][] intervals)
+            {
+                var sortedIntervals = intervals.ToList().OrderBy(x => x[0]).ThenBy(x => x[1]).ToArray();
+
+                var result = 0;
+                var index = 0;
+                for (int i = 1; i < sortedIntervals.Length; i++)
+                {
+                    if (sortedIntervals[i][0] < sortedIntervals[index][1])
+                    {
+                        result++;
+                        index = (sortedIntervals[i][1] < sortedIntervals[index][1] ? i : index);
+                    }
+                    else
+                    {
+                        index = i;
+                    }
+                }
+
+                return result;
+            }
         }
 
         public class Solution
