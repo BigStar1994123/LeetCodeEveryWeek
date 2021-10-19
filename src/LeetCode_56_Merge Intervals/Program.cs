@@ -10,7 +10,7 @@ namespace LeetCode_56_Merge_Intervals
         {
             Console.WriteLine("Hello World!");
 
-            var s = new Solution();
+            var s = new Solution2();
 
             var array2D = new int[][]
             {
@@ -25,7 +25,39 @@ namespace LeetCode_56_Merge_Intervals
             };
 
             var list = s.Merge(array2D);
-            Console.WriteLine(string.Join(",", list.Select(x => x.ToString())));
+            Console.WriteLine(string.Join(",", list.Select(x => string.Join("-", x))));
+            //Console.WriteLine(string.Join(",", string.Join("|", list.Select(x => )))));
+        }
+    }
+
+    public class Solution2
+    {
+        public int[][] Merge(int[][] intervals)
+        {
+            var sortedIntervals = intervals.ToList().OrderBy(x => x[0]).ThenBy(x => x[1]).ToArray();
+
+            var result = new List<int[]>();
+
+            var left = sortedIntervals[0][0];
+            var right = sortedIntervals[0][1];
+
+            for (int i = 1; i < sortedIntervals.Length; i++)
+            {
+                if (sortedIntervals[i][0] >= left && sortedIntervals[i][0] <= right)
+                {
+                    right = sortedIntervals[i][1] > right ? sortedIntervals[i][1] : right;
+                }
+                else
+                {
+                    result.Add(new int[] { left, right });
+
+                    left = sortedIntervals[i][0];
+                    right = sortedIntervals[i][1];
+                }
+            }
+
+            result.Add(new int[] { left, right });
+            return result.ToArray();
         }
     }
 
