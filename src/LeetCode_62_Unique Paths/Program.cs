@@ -8,12 +8,41 @@ namespace LeetCode_62_Unique_Paths
         {
             Console.WriteLine("Hello World!");
 
-            var s = new Solution();
+            var s = new Solution2();
 
             var m = 3;
-            var n = 2;
+            var n = 7;
 
             Console.WriteLine(s.UniquePaths(m, n));
+        }
+    }
+
+    public class Solution2
+    {
+        public int UniquePaths(int m, int n)
+        {
+            int[][] dp = new int[m][];
+
+            for (int i = 0; i < dp.Length; i++)
+            {
+                dp[i] = new int[n];
+                dp[i][0] = 1;
+            }
+
+            for (int i = 0; i < dp[0].Length; i++)
+            {
+                dp[0][i] = 1;
+            }
+
+            for (int i = 1; i < dp.Length; i++)
+            {
+                for (int j = 1; j < dp[0].Length; j++)
+                {
+                    dp[i][j] = dp[i - 1][j] + dp[i][j - 1];
+                }
+            }
+
+            return dp[^1][dp[0].Length - 1];
         }
     }
 
