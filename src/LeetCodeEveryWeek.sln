@@ -313,9 +313,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCode_763_Partition Labe
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCode_134_Gas Station", "LeetCode_134_Gas Station\LeetCode_134_Gas Station.csproj", "{E2662BD0-5A40-4E72-A1FC-A9E6B7B8BB1E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode_509_Fibonacci Number", "LeetCode_509_Fibonacci Number\LeetCode_509_Fibonacci Number.csproj", "{DBB06000-5E29-489A-BF49-9D93735689E4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCode_509_Fibonacci Number", "LeetCode_509_Fibonacci Number\LeetCode_509_Fibonacci Number.csproj", "{DBB06000-5E29-489A-BF49-9D93735689E4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode_746_Min Cost Climbing Stairs", "LeetCode_746_Min Cost Climbing Stairs\LeetCode_746_Min Cost Climbing Stairs.csproj", "{5626BEFA-E906-4D49-B871-FB5A60D190EF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCode_746_Min Cost Climbing Stairs", "LeetCode_746_Min Cost Climbing Stairs\LeetCode_746_Min Cost Climbing Stairs.csproj", "{5626BEFA-E906-4D49-B871-FB5A60D190EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode_968_Binary Tree Cameras", "LeetCode_968_Binary Tree Cameras\LeetCode_968_Binary Tree Cameras.csproj", "{4B21E1BA-83A0-4D9E-AFEF-464C7B2A10C7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -927,6 +929,10 @@ Global
 		{5626BEFA-E906-4D49-B871-FB5A60D190EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5626BEFA-E906-4D49-B871-FB5A60D190EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5626BEFA-E906-4D49-B871-FB5A60D190EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B21E1BA-83A0-4D9E-AFEF-464C7B2A10C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B21E1BA-83A0-4D9E-AFEF-464C7B2A10C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B21E1BA-83A0-4D9E-AFEF-464C7B2A10C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B21E1BA-83A0-4D9E-AFEF-464C7B2A10C7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1083,6 +1089,7 @@ Global
 		{E2662BD0-5A40-4E72-A1FC-A9E6B7B8BB1E} = {3D36255A-23BC-4E9A-B126-53D3599701D5}
 		{DBB06000-5E29-489A-BF49-9D93735689E4} = {9FE71562-FFCB-4C6C-92D3-50B483DFE3B0}
 		{5626BEFA-E906-4D49-B871-FB5A60D190EF} = {9FE71562-FFCB-4C6C-92D3-50B483DFE3B0}
+		{4B21E1BA-83A0-4D9E-AFEF-464C7B2A10C7} = {9FE71562-FFCB-4C6C-92D3-50B483DFE3B0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {ED727107-54AC-4412-A389-09F44830128D}
