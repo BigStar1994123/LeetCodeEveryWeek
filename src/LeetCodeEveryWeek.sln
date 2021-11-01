@@ -317,7 +317,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCode_509_Fibonacci Numb
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCode_746_Min Cost Climbing Stairs", "LeetCode_746_Min Cost Climbing Stairs\LeetCode_746_Min Cost Climbing Stairs.csproj", "{5626BEFA-E906-4D49-B871-FB5A60D190EF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode_968_Binary Tree Cameras", "LeetCode_968_Binary Tree Cameras\LeetCode_968_Binary Tree Cameras.csproj", "{4B21E1BA-83A0-4D9E-AFEF-464C7B2A10C7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCode_968_Binary Tree Cameras", "LeetCode_968_Binary Tree Cameras\LeetCode_968_Binary Tree Cameras.csproj", "{4B21E1BA-83A0-4D9E-AFEF-464C7B2A10C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode_96_Unique Binary Search Trees", "LeetCode_96_Unique Binary Search Trees\LeetCode_96_Unique Binary Search Trees.csproj", "{496C826D-C037-458A-A995-085A6218128B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCode_63_Unique Paths II", "LeetCode_63_Unique Paths II\LeetCode_63_Unique Paths II.csproj", "{F9B06983-81A3-4140-B143-8C7F35A9E282}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCode_343_Integer Break", "LeetCode_343_Integer Break\LeetCode_343_Integer Break.csproj", "{B5F4FC29-A706-4924-B630-57AFD1CA4B21}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -933,6 +939,18 @@ Global
 		{4B21E1BA-83A0-4D9E-AFEF-464C7B2A10C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4B21E1BA-83A0-4D9E-AFEF-464C7B2A10C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4B21E1BA-83A0-4D9E-AFEF-464C7B2A10C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{496C826D-C037-458A-A995-085A6218128B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{496C826D-C037-458A-A995-085A6218128B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{496C826D-C037-458A-A995-085A6218128B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{496C826D-C037-458A-A995-085A6218128B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9B06983-81A3-4140-B143-8C7F35A9E282}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9B06983-81A3-4140-B143-8C7F35A9E282}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9B06983-81A3-4140-B143-8C7F35A9E282}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9B06983-81A3-4140-B143-8C7F35A9E282}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5F4FC29-A706-4924-B630-57AFD1CA4B21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5F4FC29-A706-4924-B630-57AFD1CA4B21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5F4FC29-A706-4924-B630-57AFD1CA4B21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5F4FC29-A706-4924-B630-57AFD1CA4B21}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1090,6 +1108,9 @@ Global
 		{DBB06000-5E29-489A-BF49-9D93735689E4} = {9FE71562-FFCB-4C6C-92D3-50B483DFE3B0}
 		{5626BEFA-E906-4D49-B871-FB5A60D190EF} = {9FE71562-FFCB-4C6C-92D3-50B483DFE3B0}
 		{4B21E1BA-83A0-4D9E-AFEF-464C7B2A10C7} = {9FE71562-FFCB-4C6C-92D3-50B483DFE3B0}
+		{496C826D-C037-458A-A995-085A6218128B} = {96250E83-FC50-446E-9E71-E9992A52194F}
+		{F9B06983-81A3-4140-B143-8C7F35A9E282} = {96250E83-FC50-446E-9E71-E9992A52194F}
+		{B5F4FC29-A706-4924-B630-57AFD1CA4B21} = {FC038803-0415-444B-854B-3B8D069B1BAC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {ED727107-54AC-4412-A389-09F44830128D}
