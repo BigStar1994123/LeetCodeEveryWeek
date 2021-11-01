@@ -26,7 +26,7 @@ namespace LeetCode_236_Lowest_Common_Ancestor_of_a_Binary_Tree
             b.right = f;
 
             var s = new Solution();
-            var result = s.LowestCommonAncestor(root, 5, 1);
+            var result = s.LowestCommonAncestor(root, a, b);
         }
 
         // Definition for a binary tree node.
