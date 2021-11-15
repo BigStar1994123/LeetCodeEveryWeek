@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace LeetCode_70_Climbing_Stairs
 {
@@ -9,11 +10,36 @@ namespace LeetCode_70_Climbing_Stairs
         {
             Console.WriteLine("Hello World!");
 
-            var s = new Solution2();
+            var s = new Solution3();
 
-            var n = 45;
+            var n = 5;
 
             Console.WriteLine(s.ClimbStairs(n));
+        }
+    }
+
+    /// <summary>
+    /// 使用背包去解
+    /// </summary>
+    public class Solution3
+    {
+        public int ClimbStairs(int n)
+        {
+            var dp = Enumerable.Repeat(0, n + 1).ToArray();
+            dp[0] = 1;
+
+            const int m = 2;
+            for (int i = 1; i <= n; i++)
+            {
+                for (int j = 1; j <= m; j++)
+                {
+                    if (i - j >= 0)
+                    {
+                        dp[i] += dp[i - j];
+                    }
+                }
+            }
+            return dp[n];
         }
     }
 

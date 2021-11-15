@@ -9,11 +9,38 @@ namespace LeetCode_322_Coin_Change
         {
             Console.WriteLine("Hello World!");
 
-            var coins = new int[] { 5, 4 };
-            var amount = 11;
+            var coins = new int[] { 1, 2, 5 };
+            var amount = 7;
 
-            var s = new Solution();
+            var s = new Solution2();
             Console.WriteLine(s.CoinChange(coins, amount));
+        }
+
+        public class Solution2
+        {
+            public int CoinChange(int[] coins, int amount)
+            {
+                var dp = Enumerable.Repeat(int.MaxValue, amount + 1).ToArray();
+                dp[0] = 0;
+
+                for (int i = 0; i < coins.Length; i++)
+                {
+                    for (int j = coins[i]; j <= amount; j++)
+                    {
+                        if (dp[j - coins[i]] != int.MaxValue)
+                        {
+                            dp[j] = Math.Min(dp[j - coins[i]] + 1, dp[j]);
+                        }
+                    }
+                }
+
+                if (dp[amount] == int.MaxValue)
+                {
+                    return -1;
+                }
+
+                return dp[amount];
+            }
         }
 
         public class Solution
