@@ -12,8 +12,32 @@ namespace LeetCode_139_Word_Break
             var text = "aaaaaaa";
             var wordDict = new List<string> { "aaa", "aaaa" };
 
-            var s = new Solution();
+            var s = new Solution2();
             Console.WriteLine(s.WordBreak(text, wordDict));
+        }
+
+        public class Solution2
+        {
+            public bool WordBreak(string s, IList<string> wordDict)
+            {
+                var hash = new HashSet<string>(wordDict);
+                var dp = new bool[s.Length + 1];
+                dp[0] = true;
+
+                for (int i = 1; i <= s.Length; i++)
+                {
+                    for (int j = 0; j < i; j++)
+                    {
+                        var word = s[j..i];
+                        if (wordDict.Contains(word) && dp[j])
+                        {
+                            dp[i] = true;
+                        }
+                    }
+                }
+
+                return dp[s.Length];
+            }
         }
 
         public class Solution
