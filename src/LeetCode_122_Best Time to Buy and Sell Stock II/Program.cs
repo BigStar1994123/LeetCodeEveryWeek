@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 
 namespace LeetCode_122_Best_Time_to_Buy_and_Sell_Stock_II
 {
@@ -8,11 +9,30 @@ namespace LeetCode_122_Best_Time_to_Buy_and_Sell_Stock_II
         {
             Console.WriteLine("Hello World!");
 
-            var prices = new int[] { 7, 1, 5, 3, 6, 4 };
-            //var prices = new int[] { 1, 2, 3, 4, 5, 6 };
+            //var prices = new int[] { 7, 1, 5, 3, 6, 4 };
+            var prices = new int[] { 1, 2, 3, 4, 5, 6 };
 
-            var s = new Solution2();
+            var s = new Solution3();
             Console.WriteLine(s.MaxProfit(prices));
+        }
+
+        public class Solution3
+        {
+            public int MaxProfit(int[] prices)
+            {
+                var dp = Enumerable.Repeat(0, prices.Length)
+                                   .Select(i => Enumerable.Repeat(0, 2).ToArray()).ToArray();
+                dp[0][0] = -1 * prices[0];
+                dp[0][1] = 0;
+
+                for (int i = 1; i < prices.Length; i++)
+                {
+                    dp[i][0] = Math.Max(dp[i - 1][0], dp[i - 1][1] + (-1 * prices[i]));
+                    dp[i][1] = Math.Max(dp[i - 1][1], dp[i - 1][0] + prices[i]);
+                }
+
+                return dp[prices.Length - 1][1];
+            }
         }
 
         public class Solution2
