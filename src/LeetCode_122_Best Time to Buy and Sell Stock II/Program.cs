@@ -8,11 +8,60 @@ namespace LeetCode_122_Best_Time_to_Buy_and_Sell_Stock_II
         {
             Console.WriteLine("Hello World!");
 
-            //var prices = new int[] { 7, 1, 5, 3, 6, 4 };
-            var prices = new int[] { 1, 2, 3, 4, 5, 6 };
+            var prices = new int[] { 7, 1, 5, 3, 6, 4 };
+            //var prices = new int[] { 1, 2, 3, 4, 5, 6 };
 
-            var s = new Solution();
+            var s = new Solution2();
             Console.WriteLine(s.MaxProfit(prices));
+        }
+
+        public class Solution2
+        {
+            public int MaxProfit(int[] prices)
+            {
+                var profit = 0;
+                var low = int.MaxValue;
+
+                for (int i = 0; i < prices.Length; i++)
+                {
+                    // 未持有
+                    if (low == int.MaxValue)
+                    {
+                        low = prices[i];
+                        continue;
+                    }
+
+                    // 持有
+                    if (low != int.MaxValue)
+                    {
+                        if (prices[i] > prices[i - 1])
+                        {
+                            // 最新價格比前一價格貴，不賣出持續持有 (這其實可以不寫)
+                            continue;
+                        }
+
+                        // 最新價格比前一價格便宜
+                        if (prices[i] < prices[i - 1])
+                        {
+                            // 在前一價格賣出
+                            profit += prices[i - 1] - low;
+                            // 買進最新價格
+                            low = prices[i];
+                        }
+                        else if (prices[i] < low)
+                        {
+                            low = prices[i];
+                        }
+                    }
+                }
+
+                if (low != int.MaxValue)
+                {
+                    profit += prices[prices.Length - 1] - low;
+                }
+
+                return profit;
+            }
         }
 
         public class Solution
