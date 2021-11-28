@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 
 namespace LeetCode_714_BestTimeBuySellStock_with_Transaction_Fee
 {
@@ -11,10 +12,32 @@ namespace LeetCode_714_BestTimeBuySellStock_with_Transaction_Fee
             var prices = new int[] { 1, 3, 2, 8, 4, 9 };
             var fee = 2;
 
-            var s = new Solution2();
+            var s = new Solution3();
             Console.WriteLine(s.MaxProfit(prices, fee));
         }
 
+        /// <summary>
+        /// Using DP
+        /// </summary>
+        public class Solution3
+        {
+            public int MaxProfit(int[] prices, int fee)
+            {
+                var dp = Enumerable.Range(0, prices.Length).Select(x => Enumerable.Repeat(0, 2).ToArray()).ToArray();
+                dp[0][0] = -1 * prices[0];
+                dp[0][1] = 0;
+
+                for (int i = 1; i < prices.Length; i++)
+                {
+                    dp[i][0] = Math.Max(dp[i - 1][0], dp[i - 1][1] - prices[i]);
+                    dp[i][1] = Math.Max(dp[i - 1][1], dp[i - 1][0] + prices[i] - fee);
+                }
+
+                return dp[^1][^1];
+            }
+        }
+
+        // This is Geedy Algorithm
         public class Solution2
         {
             public int MaxProfit(int[] prices, int fee)
