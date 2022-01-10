@@ -8,10 +8,36 @@ namespace LeetCode_53_Maximum_Subarray
         {
             Console.WriteLine("Hello World!");
 
-            var s = new Solution2();
+            var s = new Solution3();
+            //var nums = new int[] { -2, 1, -3, 4, -1, 2, 1, -5, 4 };
             var nums = new int[] { -2, 1, -3, 4, -1, 2, 1, -5, 4 };
 
             Console.WriteLine(s.MaxSubArray(nums));
+        }
+    }
+
+    public class Solution3
+    {
+        public int MaxSubArray(int[] nums)
+        {
+            var result = int.MinValue;
+            var dp = int.MinValue;
+
+            for (int i = 0; i < nums.Length; i++)
+            {
+                if (0 > dp)
+                {
+                    dp = nums[i];
+                }
+                else
+                {
+                    dp += nums[i];
+                }
+
+                result = Math.Max(result, dp);
+            }
+
+            return result;
         }
     }
 
