@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 
 namespace LeetCode_647_Palindromic_Substrings
 {
@@ -8,10 +9,43 @@ namespace LeetCode_647_Palindromic_Substrings
         {
             Console.WriteLine("Hello World!");
 
-            var text = "aabaaca";
+            var text = "aaaaaa";
 
             var s = new Solution();
+            var s2 = new Solution2();
             Console.WriteLine(s.CountSubstrings(text));
+            Console.WriteLine(s2.CountSubstrings(text));
+        }
+
+        public class Solution2
+        {
+            public int CountSubstrings(string s)
+            {
+                var dp = Enumerable.Range(0, s.Length).Select(x => Enumerable.Repeat(false, s.Length).ToArray()).ToArray();
+                var result = 0;
+
+                for (int i = 0; i < s.Length; i++)
+                {
+                    for (int j = i; j >= 0; j--)
+                    {
+                        if (s[i] == s[j])
+                        {
+                            if (i - j <= 1)
+                            {
+                                result++;
+                                dp[i][j] = true;
+                            }
+                            else if (dp[i - 1][j + 1])
+                            {
+                                result++;
+                                dp[i][j] = true;
+                            }
+                        }
+                    }
+                }
+
+                return result;
+            }
         }
 
         public class Solution
