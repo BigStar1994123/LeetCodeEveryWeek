@@ -10,11 +10,30 @@ namespace LeetCode_70_Climbing_Stairs
         {
             Console.WriteLine("Hello World!");
 
-            var s = new Solution3();
+            var s = new Solution4();
 
             var n = 5;
 
             Console.WriteLine(s.ClimbStairs(n));
+        }
+    }
+
+    public class Solution4
+    {
+        public int ClimbStairs(int n)
+        {
+            var dp = new Dictionary<int, int>
+            {
+                {1, 1},
+                {2, 2}
+            };
+
+            for (int i = 3; i <= n; i++)
+            {
+                dp.Add(i, dp[i - 1] + dp[i - 2]);
+            }
+
+            return dp[n];
         }
     }
 

@@ -11,8 +11,29 @@ namespace LeetCode_509_Fibonacci_Number
 
             var num = 6;
 
-            var s = new Solution();
+            var s = new Solution2();
             Console.WriteLine(s.Fib(num));
+        }
+
+        public class Solution2
+        {
+            private Dictionary<int, int> dp = new Dictionary<int, int>()
+            {
+                { 0,0 },
+                { 1,1 }
+            };
+
+            public int Fib(int n)
+            {
+                if (dp.ContainsKey(n))
+                {
+                    return dp[n];
+                }
+
+                var value = Fib(n - 1) + Fib(n - 2);
+                dp.Add(n, value);
+                return value;
+            }
         }
 
         public class Solution
