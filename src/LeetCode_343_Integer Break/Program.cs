@@ -11,10 +11,37 @@ namespace LeetCode_343_Integer_Break
         {
             Console.WriteLine("Hello World!");
 
-            var num = 12;
+            var num = 10;
 
-            var s = new Solution2();
+            var s = new Solution3();
             Console.WriteLine(s.IntegerBreak(num));
+        }
+
+        public class Solution3
+        {
+            public int IntegerBreak(int n)
+            {
+                if (n == 2)
+                {
+                    return 1;
+                }
+
+                if (n == 3)
+                {
+                    return 2;
+                }
+
+                var result = 1;
+                while (n >= 5)
+                {
+                    n -= 3;
+                    result *= 3;
+                }
+
+                result *= n;
+
+                return result;
+            }
         }
 
         public class Solution2

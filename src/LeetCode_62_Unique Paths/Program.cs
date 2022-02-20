@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 
 namespace LeetCode_62_Unique_Paths
 {
@@ -8,12 +9,30 @@ namespace LeetCode_62_Unique_Paths
         {
             Console.WriteLine("Hello World!");
 
-            var s = new Solution2();
+            var s = new Solution3();
 
             var m = 3;
             var n = 7;
 
             Console.WriteLine(s.UniquePaths(m, n));
+        }
+    }
+
+    public class Solution3
+    {
+        public int UniquePaths(int m, int n)
+        {
+            var dp = Enumerable.Range(0, m).Select(x => Enumerable.Repeat(1, n).ToArray()).ToArray();
+
+            for (int i = 1; i < m; i++)
+            {
+                for (int j = 1; j < n; j++)
+                {
+                    dp[i][j] = dp[i - 1][j] + dp[i][j - 1];
+                }
+            }
+
+            return dp[m - 1][n - 1];
         }
     }
 
