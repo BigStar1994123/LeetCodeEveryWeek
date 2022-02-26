@@ -9,10 +9,36 @@ namespace LeetCode_416_Partition_Equal_Subset_Sum
         {
             Console.WriteLine("Hello World!");
 
-            var nums = new int[] { 2, 5, 11 };
+            var nums = new int[] { 6, 5, 11 };
 
-            var s = new Solution();
+            var s = new Solution2();
             Console.WriteLine(s.CanPartition(nums));
+        }
+
+        public class Solution2
+        {
+            public bool CanPartition(int[] nums)
+            {
+                var sum = nums.Sum();
+                if (sum % 2 == 1)
+                {
+                    return false;
+                }
+
+                var halfSum = sum / 2;
+                Array.Sort(nums);
+
+                var dp = Enumerable.Repeat(0, halfSum + 1).ToArray();
+                for (int i = 0; i < nums.Length; i++)
+                {
+                    for (int j = halfSum; j >= nums[i]; j--)
+                    {
+                        dp[j] = Math.Max(dp[j], dp[j - nums[i]] + nums[i]);
+                    }
+                }
+
+                return dp[halfSum] == halfSum;
+            }
         }
 
         public class Solution

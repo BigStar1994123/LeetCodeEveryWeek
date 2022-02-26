@@ -11,8 +11,34 @@ namespace LeetCode_96_Unique_Binary_Search_Trees
 
             var num = 4;
 
-            var s = new Solution();
+            var s = new Solution2();
             Console.WriteLine(s.NumTrees(num));
+        }
+
+        public class Solution2
+        {
+            public int NumTrees(int n)
+            {
+                var dp = new Dictionary<int, int>
+                {
+                    { 0, 1 },
+                    { 1 ,1 },
+                    { 2, 2 }
+                };
+
+                for (int i = 3; i <= n; i++)
+                {
+                    var value = 0;
+                    for (int j = i - 1; j >= 0; j--)
+                    {
+                        value += dp[j] * dp[i - 1 - j];
+                    }
+
+                    dp.Add(i, value);
+                }
+
+                return dp[n];
+            }
         }
 
         public class Solution

@@ -14,8 +14,29 @@ namespace LeetCode_1049_Last_Stone_Weight_II
             //var nums = new int[] { 31, 26, 33, 21, 40 };
             var nums = new int[] { 6, 2, 2, 6, 5, 7, 7 };
 
-            var s = new Solution2();
+            var s = new Solution3();
             Console.WriteLine(s.LastStoneWeightII(nums));
+        }
+
+        public class Solution3
+        {
+            public int LastStoneWeightII(int[] stones)
+            {
+                var sum = stones.Sum();
+                var halfSum = sum / 2;
+                //Array.Sort(stones);
+                var dp = Enumerable.Repeat(0, halfSum + 1).ToArray();
+
+                for (int i = 0; i < stones.Length; i++)
+                {
+                    for (int j = halfSum; j >= stones[i]; j--)
+                    {
+                        dp[j] = Math.Max(dp[j], dp[j - stones[i]] + stones[i]);
+                    }
+                }
+
+                return sum - dp[halfSum] - dp[halfSum];
+            }
         }
 
         public class Solution2
