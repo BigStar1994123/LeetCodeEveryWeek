@@ -12,8 +12,40 @@ namespace LeetCode_494_Target_Sum
             var nums = new int[] { 1, 1, 1, 1, 1 };
             var target = 3;
 
-            var s = new Solution();
+            var s = new Solution2();
             Console.WriteLine(s.FindTargetSumWays(nums, target));
+        }
+
+        public class Solution2
+        {
+            public int FindTargetSumWays(int[] nums, int target)
+            {
+                var sum = nums.Sum();
+
+                if ((target + sum) % 2 == 1)
+                {
+                    return 0;
+                }
+
+                if (Math.Abs(target) > sum)
+                {
+                    return 0;
+                }
+
+                var addCounts = (target + sum) / 2;
+                var dp = Enumerable.Repeat(0, addCounts + 1).ToArray();
+                dp[0] = 1;
+
+                for (int i = 0; i < nums.Length; i++)
+                {
+                    for (int j = addCounts; j >= nums[i]; j--)
+                    {
+                        dp[j] += dp[j - nums[i]];
+                    }
+                }
+
+                return dp[addCounts];
+            }
         }
 
         public class Solution
