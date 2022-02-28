@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2016
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Leetcode118_Pascal's Triangle", "Leetcode118_Pascal's Triangle\Leetcode118_Pascal's Triangle.pyproj", "{32E3326E-84A6-43AF-BD94-E88A5B7B979E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{32E3326E-84A6-43AF-BD94-E88A5B7B979E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32E3326E-84A6-43AF-BD94-E88A5B7B979E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {84BDB7DC-63D7-441D-AC80-9E90807660E1}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.438
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Leetcode67_Add Binary", "Leetcode67_Add Binary\Leetcode67_Add Binary.csproj", "{975C00A5-E070-4405-AC61-8BA1EA291B07}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{975C00A5-E070-4405-AC61-8BA1EA291B07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{975C00A5-E070-4405-AC61-8BA1EA291B07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{975C00A5-E070-4405-AC61-8BA1EA291B07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{975C00A5-E070-4405-AC61-8BA1EA291B07}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CD44FB32-AFD4-4FFD-8CDC-1905AF5CE10D}
+	EndGlobalSection
+EndGlobal
