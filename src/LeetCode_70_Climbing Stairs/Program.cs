@@ -10,11 +10,33 @@ namespace LeetCode_70_Climbing_Stairs
         {
             Console.WriteLine("Hello World!");
 
-            var s = new Solution4();
+            var s = new Solution5();
 
             var n = 5;
 
             Console.WriteLine(s.ClimbStairs(n));
+        }
+    }
+
+    public class Solution5
+    {
+        public int ClimbStairs(int n)
+        {
+            var dp = Enumerable.Repeat(0, n + 1).ToArray();
+            dp[0] = 1;
+
+            for (int i = 0; i <= n; i++)
+            {
+                for (int j = 1; j <= 2; j++)
+                {
+                    if (i >= j)
+                    {
+                        dp[i] += dp[i - j];
+                    }
+                }
+            }
+
+            return dp[n];
         }
     }
 
