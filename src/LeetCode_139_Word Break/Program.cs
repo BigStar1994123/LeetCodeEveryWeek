@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace LeetCode_139_Word_Break
 {
@@ -12,8 +13,31 @@ namespace LeetCode_139_Word_Break
             var text = "aaaaaaa";
             var wordDict = new List<string> { "aaa", "aaaa" };
 
-            var s = new Solution2();
+            var s = new Solution3();
             Console.WriteLine(s.WordBreak(text, wordDict));
+        }
+
+        public class Solution3
+        {
+            public bool WordBreak(string s, IList<string> wordDict)
+            {
+                var dp = Enumerable.Repeat(false, s.Length + 1).ToArray();
+                dp[0] = true;
+
+                for (int i = 1; i <= s.Length; i++)
+                {
+                    for (int j = 0; j < i; j++)
+                    {
+                        var subString = s.Substring(j, i - j);
+                        if (wordDict.Contains(subString) && dp[j] == true)
+                        {
+                            dp[i] = true;
+                        }
+                    }
+                }
+
+                return dp[s.Length];
+            }
         }
 
         public class Solution2

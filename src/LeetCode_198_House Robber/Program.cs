@@ -11,8 +11,36 @@ namespace LeetCode_198_House_Robber
 
             var nums = new int[] { 1, 2, 3, 1, 5, 9 };
 
-            var s = new Solution2();
+            var s = new Solution3();
             Console.WriteLine(s.Rob(nums));
+        }
+
+        public class Solution3
+        {
+            public int Rob(int[] nums)
+            {
+                var dp = Enumerable.Repeat(0, nums.Length).ToArray();
+
+                for (int i = 0; i < nums.Length; i++)
+                {
+                    var num = nums[i];
+
+                    if (i == 0)
+                    {
+                        dp[i] = num;
+                    }
+                    else if (i == 1)
+                    {
+                        dp[i] = Math.Max(num, dp[0]);
+                    }
+                    else
+                    {
+                        dp[i] = Math.Max(dp[i - 2] + num, dp[i - 1]);
+                    }
+                }
+
+                return dp[nums.Length - 1];
+            }
         }
 
         public class Solution2
