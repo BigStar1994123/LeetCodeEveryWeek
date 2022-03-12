@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 
 namespace LeetCode_337_House_Robber_III
 {
@@ -8,11 +9,11 @@ namespace LeetCode_337_House_Robber_III
         {
             Console.WriteLine("Hello World!");
 
-            var s = new Solution();
+            var s = new Solution2();
 
             var root = new TreeNode(3);
-            root.left = new TreeNode(2, null, new TreeNode(3));
-            root.right = new TreeNode(3, null, new TreeNode(1));
+            root.left = new TreeNode(298, null, new TreeNode(3));
+            root.right = new TreeNode(3, null, new TreeNode(199));
 
             Console.WriteLine(s.Rob(root));
         }
@@ -29,6 +30,32 @@ namespace LeetCode_337_House_Robber_III
                 this.val = val;
                 this.left = left;
                 this.right = right;
+            }
+        }
+
+        public class Solution2
+        {
+            public int Rob(TreeNode root)
+            {
+                var result = TreeRob(root);
+                return Math.Max(result.HeadValue, result.NotHeadValue);
+            }
+
+            private (int HeadValue, int NotHeadValue) TreeRob(TreeNode node)
+            {
+                if (node == null)
+                {
+                    return (0, 0);
+                }
+
+                var leftResult = TreeRob(node.left);
+                var rightResult = TreeRob(node.right);
+
+                var headValue = leftResult.NotHeadValue + rightResult.NotHeadValue + node.val;
+                var notHeadValue = Math.Max(leftResult.NotHeadValue, leftResult.HeadValue) +
+                    Math.Max(rightResult.NotHeadValue, rightResult.HeadValue);
+
+                return (headValue, notHeadValue);
             }
         }
 
