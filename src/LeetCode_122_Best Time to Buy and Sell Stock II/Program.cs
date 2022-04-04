@@ -12,8 +12,52 @@ namespace LeetCode_122_Best_Time_to_Buy_and_Sell_Stock_II
             //var prices = new int[] { 7, 1, 5, 3, 6, 4 };
             var prices = new int[] { 1, 2, 3, 4, 5, 6 };
 
-            var s = new Solution3();
+            var s = new Solution4();
             Console.WriteLine(s.MaxProfit(prices));
+        }
+
+        public class Solution4
+        {
+            public int MaxProfit(int[] prices)
+            {
+                if (prices.Length <= 1)
+                {
+                    return 0;
+                }
+
+                var profit = 0;
+                var minPrice = prices[0];
+                var prePrice = prices[0];
+
+                for (int i = 1; i < prices.Length; i++)
+                {
+                    if (prices[i] < minPrice)
+                    {
+                        minPrice = prices[i];
+                        prePrice = prices[i];
+                    }
+                    else
+                    {
+                        if (prices[i] > prePrice)
+                        {
+                            prePrice = prices[i];
+                        }
+                        else
+                        {
+                            profit += prices[i - 1] - minPrice;
+                            minPrice = prices[i];
+                            prePrice = prices[i];
+                        }
+                    }
+                }
+
+                if (prices[^1] > minPrice)
+                {
+                    profit += prices[^1] - minPrice;
+                }
+
+                return profit;
+            }
         }
 
         public class Solution3

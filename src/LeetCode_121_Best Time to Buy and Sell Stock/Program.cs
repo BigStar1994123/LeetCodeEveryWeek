@@ -16,6 +16,34 @@ namespace LeetCode_121_Best_Time_to_Buy_and_Sell_Stock
         }
     }
 
+    public class Solution4
+    {
+        public int MaxProfit(int[] prices)
+        {
+            if (prices.Length == 0)
+            {
+                return 0;
+            }
+
+            var minPrice = prices[0];
+            var profit = 0;
+
+            for (var i = 1; i < prices.Length; i++)
+            {
+                if (prices[i] < minPrice)
+                {
+                    minPrice = prices[i];
+                    continue;
+                }
+
+                var p = prices[i] - minPrice;
+                profit = Math.Max(profit, p);
+            }
+
+            return profit;
+        }
+    }
+
     public class Solution3
     {
         public int MaxProfit(int[] prices)
